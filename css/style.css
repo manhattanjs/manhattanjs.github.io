@@ -1,0 +1,64 @@
+/* Manhattan JS specific styles
+
+brand colors
+dark blue: #485367;
+red: #e33e57;
+lt blue: #c7e6d7;
+white: #fff;
+
+*/
+body {
+  background-color: #485367;
+  background-image: url("../img/manhattan-js-logo.svg");
+  background-repeat: no-repeat;
+  background-position: top right;
+  position: relative;
+}
+
+.main article {
+  color: #fff;
+  width: 80%;
+}
+
+.speaker {
+  width: 28%;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 4%;
+}
+
+.next-event {
+  color: #fff;
+  line-height: 1.2em;
+  font-family: 'Raleway', helvetica, sans-serif;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #e33e57;
+}
+
+.wordmark {
+  display: block;
+}
+
+h1, h2, h3 {
+  font-family: 'Raleway', helvetica, sans-serif;
+}
+
+.footer-container {
+  font-size: .8em;
+  padding: 5px 0;
+}
+
+.footer-container footer, .footer-container footer a  {
+  color: #62738c;
+}
+
+.footer-container footer a:hover {
+  color: #fff;
+}
