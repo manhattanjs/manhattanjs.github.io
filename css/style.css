@@ -50,12 +50,40 @@ h1, h2, h3 {
   font-family: 'Raleway', helvetica, sans-serif;
 }
 
+.time,
+.tickets,
+.tickets a {
+  color: #c7e6d7;
+}
+
+.tickets a:hover {
+  color: #e33e57;
+}
+
+.time {
+  margin-bottom: -10px;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: -webkit-linear-gradient(left, #485367, #c7e6d7, #485367);
+  background-image:    -moz-linear-gradient(left, #485367, #c7e6d7, #485367);
+  background-image:     -ms-linear-gradient(left, #485367, #c7e6d7, #485367);
+  background-image:      -o-linear-gradient(left, #485367, #c7e6d7, #485367);
+}
 .footer-container {
   font-size: .8em;
   padding: 5px 0;
+  position: relative;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
 }
 
-.footer-container footer, .footer-container footer a  {
+.footer-container footer,
+.footer-container footer a  {
   color: #62738c;
 }
 

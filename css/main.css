@@ -135,6 +135,10 @@ nav a:hover {
     color: white;
 }
 
+.right {
+    float: right;
+}
+
 /* ===============
     ALL: IE Fixes
    =============== */
