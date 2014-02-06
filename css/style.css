@@ -57,7 +57,7 @@ h1, h2, h3 {
 }
 
 a.tickets h2{
-   font-size: 1em;
+   font-size: 0.85em;
 }
 
 .tickets a:hover {
