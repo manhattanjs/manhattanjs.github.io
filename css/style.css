@@ -72,11 +72,17 @@ h1, h2, h3 {
   text-align: center;
 }
 
+#se-logo {
+  padding-left: 356px;
+}
 
+#ec-logo {
+  padding-left: 50px;
+}
 
 .sponsor-images img{
-  width: 300px;
-  padding-left: 200px;
+  width: 250px;
+  margin:auto;
 }
 
 hr {
