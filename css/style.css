@@ -62,6 +62,7 @@ h1, h2, h3 {
 
 .charity {
   color: #fff;
+  margin-top: -20px;
 }
 
 .time {
@@ -90,17 +91,9 @@ h1, h2, h3 {
   margin:auto;
 }
 
-.sponsor-inquiry a{
-  color: #62738c;
-  text-decoration: none;
-}
-
-.sponsor-inquiry a:hover {
-  color: #e33e57;
-}
-
 .sponsor-inquiry p{
   text-align: center;
+  color: #2d343d;
 }
 
 hr {
@@ -127,5 +120,5 @@ hr {
 }
 
 .footer-container footer a:hover {
-  color: #fff;
+  color: #e33e57;
 }
