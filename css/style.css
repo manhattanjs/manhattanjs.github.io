@@ -74,6 +74,10 @@ a.tickets h2{
   font-size: 12px
 }
 
+.speaker-name {
+  margin-bottom: 0.5em;
+}
+
 .time {
   margin-bottom: -10px;
 }
