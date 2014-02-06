@@ -60,12 +60,17 @@ h1, h2, h3 {
   color: #e33e57;
 }
 
+.charity {
+  color: #fff;
+}
+
 .time {
   margin-bottom: -10px;
 }
 
 .sponsors-container{
   background-color: #fff;
+  height: 262px;
 }
 
 .sponsors-container h1{
@@ -83,6 +88,19 @@ h1, h2, h3 {
 .sponsor-images img{
   width: 250px;
   margin:auto;
+}
+
+.sponsor-inquiry a{
+  color: #62738c;
+  text-decoration: none;
+}
+
+.sponsor-inquiry a:hover {
+  color: #e33e57;
+}
+
+.sponsor-inquiry p{
+  text-align: center;
 }
 
 hr {
