@@ -54,11 +54,10 @@ h1, h2, h3 {
 .tickets,
 .tickets a {
   color: #c7e6d7;
-  font-size: 0.75em;
 }
 
 a.tickets h2{
-   font-size: 0.75em;
+   font-size: 1em;
 }
 
 .tickets a:hover {
