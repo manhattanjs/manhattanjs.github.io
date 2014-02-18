@@ -60,10 +60,6 @@ textarea {
    Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
    ========================================================================== */
 
-body {
-    font: 16px/26px 'Lora', Georgia, serif;
-}
-
 .wrapper {
     width: 90%;
     margin: 0 5%;

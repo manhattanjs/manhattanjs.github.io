@@ -13,6 +13,28 @@ body {
   background-repeat: no-repeat;
   background-position: top right;
   position: relative;
+  font-family: 'Quattrocento', georgia, serif;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #e33e57;
+}
+
+.wordmark {
+  display: block;
+}
+
+h1, h2, h3 {
+  font-family: 'Raleway', helvetica, sans-serif;
+}
+
+p {
+  line-height: 1.4em;
 }
 
 .main article {
@@ -33,45 +55,23 @@ body {
   font-family: 'Raleway', helvetica, sans-serif;
 }
 
-a {
-  color: #fff;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #e33e57;
-}
-
-.wordmark {
+.time,
+.tickets-link {
+  color: #c7e6d7;
   display: block;
-}
-
-h1, h2, h3 {
+  font-size: 1.8em;
+  font-weight: bold;
   font-family: 'Raleway', helvetica, sans-serif;
 }
 
-.time,
-.tickets,
-.tickets a {
-  color: #c7e6d7;
-}
-
-a.tickets h2{
-   font-size: 0.85em;
-}
-
-.tickets a:hover {
+.tickets-link:hover {
   color: #e33e57;
 }
 
-.tickets-text {
-  margin-bottom: 5px;
-}
-
-.charity {
+.charity-copy {
   color: #fff;
-  margin-top: -20px;
-  font-size: 12px
+  font-size: 12px;
+  margin: 0;
 }
 
 .speaker-name {
