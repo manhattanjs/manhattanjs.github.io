@@ -15,6 +15,22 @@ body {
   position: relative;
   font-family: 'Quattrocento', georgia, serif;
 }
+@media screen and (max-width: 770px) {
+  body {
+    background-image: none;
+  }
+}
+
+.small-logo {
+  display: none;
+}
+
+@media screen and (max-width: 770px) {
+  .small-logo {
+    display: inline;
+    margin-right: 4px;
+  }
+}
 
 a {
   color: #fff;
@@ -26,11 +42,16 @@ a:hover {
 }
 
 .wordmark {
-  display: block;
+  display: inline-block;
+  position: relative;
+  top: 10px;
 }
+
+
 
 h1, h2, h3 {
   font-family: 'Raleway', helvetica, sans-serif;
+  line-height: 1.2em;
 }
 
 p {
@@ -42,11 +63,25 @@ p {
   width: 80%;
 }
 
+.speakers {
+  margin-top: 20px;
+}
+
 .speaker {
   width: 28%;
   display: inline-block;
   vertical-align: top;
   margin-right: 4%;
+}
+
+@media screen and (max-width: 600px) {
+  .speakers {
+    margin: 40px 0;
+  }
+  .speaker {
+    display: block;
+    width: 100%;
+  }
 }
 
 .next-event {
@@ -58,13 +93,12 @@ p {
 .time,
 .tickets-link {
   color: #c7e6d7;
-  display: block;
   font-size: 1.8em;
   font-weight: bold;
   font-family: 'Raleway', helvetica, sans-serif;
 }
 
-.tickets-link:hover {
+a.tickets-link:hover {
   color: #e33e57;
 }
 
@@ -74,8 +108,20 @@ p {
   margin: 0;
 }
 
+.sold-out-copy {
+  color: #fff;
+}
+
+.sold-out-copy a {
+  color: #c7e6d7;
+}
+
+.sold-out-copy a:hover {
+  color: #e33e57
+}
+
 .speaker-name {
-  margin-bottom: 0.5em;
+  margin-bottom: 0;
 }
 
 .time {
@@ -84,15 +130,12 @@ p {
 
 .sponsors-container{
   background-color: #fff;
-  height: 262px;
+  padding: 0 20px;
 }
 
 .sponsors-container h1{
   text-align: center;
-}
-
-#ec-logo {
-  padding-left: 50px;
+  margin: 0 0 .5em 0;
 }
 
 .sponsor-images img{
@@ -110,9 +153,11 @@ p {
   text-align: center;
 }
 
-.sponsor-inquiry p{
+.sponsor-inquiry p {
   text-align: center;
   color: #2d343d;
+  padding-bottom: 20px;
+  margin-bottom: 0;
 }
 
 hr {
@@ -126,7 +171,8 @@ hr {
 }
 .footer-container {
   font-size: .8em;
-  padding: 5px 0;
+  line-height: 1.5em;
+  padding: 15px 0;
   position: relative;
   left: 0px;
   bottom: 0px;
@@ -135,7 +181,7 @@ hr {
 
 .footer-container footer,
 .footer-container footer a  {
-  color: #62738c;
+  color: #7385a0;
 }
 
 .footer-container footer a:hover {
