@@ -44,7 +44,7 @@ a:hover {
 .wordmark {
   display: inline-block;
   position: relative;
-  top: 10px;
+  top: 16px;
 }
 
 
@@ -156,7 +156,7 @@ a.tickets-link:hover {
 .sponsor-inquiry p {
   text-align: center;
   color: #2d343d;
-  padding-bottom: 20px;
+  padding: 20px 0;
   margin-bottom: 0;
 }
 
