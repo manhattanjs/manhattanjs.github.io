@@ -1,0 +1,21 @@
+@import "variables";
+
+.footer-container {
+  background-color: $dark-blue;
+  font-size: .8em;
+  line-height: 1.5em;
+  padding: 15px 0;
+  position: relative;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  footer {
+    color: $footer-copy;
+    a {
+      color: $footer-copy;
+      &:hover {
+        color: $red;
+      }
+    }
+  }
+}

@@ -1,0 +1,65 @@
+@import "variables";
+
+.speakers {
+  margin-top: 20px;
+  @media screen and (max-width: 600px) {
+    .speakers {
+      margin: 40px 0;
+    }
+  }
+}
+
+.speaker {
+  display: inline-block;
+  margin-right: 4%;
+  vertical-align: top;
+  width: 28%;
+  @media screen and (max-width: 600px) {
+    display: block;
+    width: 100%;
+  }
+}
+
+.next-event {
+  color: $white;
+  font-family: $header-font;
+  line-height: 1.2em;
+  margin: 1.2em 0;
+}
+
+.charity-copy {
+  color: $white;
+  font-size: 12px;
+  margin: 0;
+}
+
+.time,
+.tickets-link {
+  color: $light-blue;
+  font-family: $header-font;
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+a.tickets-link:hover {
+  color: $red;
+}
+
+.sold-out-copy {
+  color: $white;
+}
+
+.sold-out-copy a {
+  color: $light-blue;
+  &:hover {
+    color: $red;
+  }
+}
+
+.speaker-name {
+  margin-bottom: 0;
+}
+
+.time {
+  margin-bottom: -10px;
+}

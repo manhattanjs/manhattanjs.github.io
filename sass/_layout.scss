@@ -1,0 +1,123 @@
+@import "variables";
+
+body {
+  background-color: $medium-blue;
+  background-image: url("../img/manhattan-js-logo.svg");
+  background-repeat: no-repeat;
+  background-position: top right;
+  position: relative;
+  @media screen and (max-width: 770px) {
+    background-image: none;
+  }
+}
+
+.small-logo {
+  display: none;
+  @media screen and (max-width: 770px) {
+    display: inline;
+    margin-right: 4px;
+  }
+}
+
+.wordmark {
+  display: inline-block;
+  position: relative;
+  top: 16px;
+}
+
+::-moz-selection {
+  background: $light-blue;
+  text-shadow: none;
+}
+
+::selection {
+  background: $light-blue;
+  text-shadow: none;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid $white;
+  display: block;
+  height: 1px;
+  margin: 1em 0;
+  padding: 0;
+}
+
+img {
+  vertical-align: middle;
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.chromeframe {
+  background: #ccc;
+  color: #000;
+  margin: 0.2em 0;
+  padding: 0.2em 0;
+}
+
+.wrapper {
+  margin: 0 5%;
+  width: 90%;
+}
+
+.main {
+  padding: 30px 0;
+  article {
+    color: $white;
+    width: 80%;
+  }
+}
+
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
