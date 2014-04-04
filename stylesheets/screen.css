@@ -1,0 +1,304 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 3, ../sass/_layout.scss */
+body {
+  background-color: #485367;
+  background-image: url("../img/manhattan-js-logo.svg");
+  background-repeat: no-repeat;
+  background-position: top right;
+  position: relative;
+}
+@media screen and (max-width: 770px) {
+  /* line 3, ../sass/_layout.scss */
+  body {
+    background-image: none;
+  }
+}
+
+/* line 14, ../sass/_layout.scss */
+.small-logo {
+  display: none;
+}
+@media screen and (max-width: 770px) {
+  /* line 14, ../sass/_layout.scss */
+  .small-logo {
+    display: inline;
+    margin-right: 4px;
+  }
+}
+
+/* line 22, ../sass/_layout.scss */
+.wordmark {
+  display: inline-block;
+  position: relative;
+  top: 16px;
+}
+
+/* line 28, ../sass/_layout.scss */
+::-moz-selection {
+  background: #c7e6d7;
+  text-shadow: none;
+}
+
+/* line 33, ../sass/_layout.scss */
+::selection {
+  background: #c7e6d7;
+  text-shadow: none;
+}
+
+/* line 38, ../sass/_layout.scss */
+hr {
+  border: 0;
+  border-top: 1px solid white;
+  display: block;
+  height: 1px;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* line 47, ../sass/_layout.scss */
+img {
+  vertical-align: middle;
+}
+
+/* line 51, ../sass/_layout.scss */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 57, ../sass/_layout.scss */
+textarea {
+  resize: vertical;
+}
+
+/* line 61, ../sass/_layout.scss */
+.chromeframe {
+  background: #ccc;
+  color: #000;
+  margin: 0.2em 0;
+  padding: 0.2em 0;
+}
+
+/* line 68, ../sass/_layout.scss */
+.wrapper {
+  margin: 0 5%;
+  width: 90%;
+}
+
+/* line 73, ../sass/_layout.scss */
+.main {
+  padding: 30px 0;
+}
+/* line 75, ../sass/_layout.scss */
+.main article {
+  color: white;
+  width: 80%;
+}
+
+/* line 81, ../sass/_layout.scss */
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+/* line 86, ../sass/_layout.scss */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/* line 98, ../sass/_layout.scss */
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+/* line 107, ../sass/_layout.scss */
+.invisible {
+  visibility: hidden;
+}
+
+/* line 112, ../sass/_layout.scss */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+/* line 117, ../sass/_layout.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 121, ../sass/_layout.scss */
+.clearfix {
+  *zoom: 1;
+}
+
+/* line 3, ../sass/_typography.scss */
+html {
+  font-family: "Quattrocento", georgia, serif;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+/* line 9, ../sass/_typography.scss */
+a {
+  color: white;
+  text-decoration: none;
+}
+/* line 12, ../sass/_typography.scss */
+a:hover {
+  color: #e33e57;
+}
+
+/* line 17, ../sass/_typography.scss */
+h1, h2, h3 {
+  font-family: "Raleway", helvetica, sans-serif;
+  line-height: 1.2em;
+}
+
+/* line 22, ../sass/_typography.scss */
+p {
+  line-height: 1.5em;
+}
+
+/* line 3, ../sass/_next-event.scss */
+.speakers {
+  margin-top: 20px;
+}
+@media screen and (max-width: 600px) {
+  /* line 6, ../sass/_next-event.scss */
+  .speakers .speakers {
+    margin: 40px 0;
+  }
+}
+
+/* line 12, ../sass/_next-event.scss */
+.speaker {
+  display: inline-block;
+  margin-right: 4%;
+  vertical-align: top;
+  width: 28%;
+}
+@media screen and (max-width: 600px) {
+  /* line 12, ../sass/_next-event.scss */
+  .speaker {
+    display: block;
+    width: 100%;
+  }
+}
+
+/* line 23, ../sass/_next-event.scss */
+.next-event {
+  color: white;
+  font-family: "Raleway", helvetica, sans-serif;
+  line-height: 1.2em;
+  margin: 1.2em 0;
+}
+
+/* line 30, ../sass/_next-event.scss */
+.charity-copy {
+  color: white;
+  font-size: 12px;
+  margin: 0;
+}
+
+/* line 37, ../sass/_next-event.scss */
+.time,
+.tickets-link {
+  color: #c7e6d7;
+  font-family: "Raleway", helvetica, sans-serif;
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+/* line 44, ../sass/_next-event.scss */
+a.tickets-link:hover {
+  color: #e33e57;
+}
+
+/* line 48, ../sass/_next-event.scss */
+.sold-out-copy {
+  color: white;
+}
+
+/* line 52, ../sass/_next-event.scss */
+.sold-out-copy a {
+  color: #c7e6d7;
+}
+/* line 54, ../sass/_next-event.scss */
+.sold-out-copy a:hover {
+  color: #e33e57;
+}
+
+/* line 59, ../sass/_next-event.scss */
+.speaker-name {
+  margin-bottom: 0;
+}
+
+/* line 63, ../sass/_next-event.scss */
+.time {
+  margin-bottom: -10px;
+}
+
+/* line 3, ../sass/_about.scss */
+.about {
+  color: white;
+  margin-bottom: 0;
+  padding: 20px 0;
+}
+/* line 7, ../sass/_about.scss */
+.about hr {
+  margin-bottom: 40px;
+  opacity: .2;
+}
+
+/* line 3, ../sass/_speak-sponsor.scss */
+.sponsors-container {
+  max-width: 800px;
+}
+
+/* line 7, ../sass/_speak-sponsor.scss */
+.email {
+  color: #c7e6d7;
+}
+
+/* line 3, ../sass/_footer.scss */
+.footer-container {
+  background-color: #2d343d;
+  font-size: .8em;
+  line-height: 1.5em;
+  padding: 15px 0;
+  position: relative;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+}
+/* line 12, ../sass/_footer.scss */
+.footer-container footer {
+  color: #7385a0;
+}
+/* line 14, ../sass/_footer.scss */
+.footer-container footer a {
+  color: #7385a0;
+}
+/* line 16, ../sass/_footer.scss */
+.footer-container footer a:hover {
+  color: #e33e57;
+}
