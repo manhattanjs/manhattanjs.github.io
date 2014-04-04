@@ -2,13 +2,7 @@
 
 body {
   background-color: $medium-blue;
-  background-image: url("../img/manhattan-js-logo.svg");
-  background-repeat: no-repeat;
-  background-position: top right;
   position: relative;
-  @media screen and (max-width: 770px) {
-    background-image: none;
-  }
 }
 
 .small-logo {
@@ -16,6 +10,31 @@ body {
   @media screen and (max-width: 770px) {
     display: inline;
     margin-right: 4px;
+  }
+}
+
+.scrolling-clouds {
+  height: 200px;
+  width: auto;
+  position: absolute;
+  top: 0;
+  right: 250px;
+  z-index: 1;
+}
+
+.js-ease-out-right {
+  @include ease-out-right;
+}
+
+.chrysler-building {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 220px;
+  height: auto;
+  z-index: 10;
+  @media screen and (max-width: 770px) {
+    display: none;
   }
 }
 

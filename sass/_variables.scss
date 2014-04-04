@@ -9,3 +9,30 @@ $footer-copy: #7385a0;
 // Fonts
 $header-font: 'Raleway', helvetica, sans-serif;
 $body-font: 'Quattrocento', georgia, serif;
+
+@mixin ease-out-right {
+  -webkit-transition: all 5.0s ease-in-out;
+  -webkit-transform: translateX(1000px);
+}
+
+// @-webkit-keyframes slideRight {
+//   0% {
+//     -webkit-transform: translateX(-150%);
+//   }
+//   50%{
+//     -webkit-transform: translateX(8%);
+//   }
+//   65%{
+//     -webkit-transform: translateX(-4%);
+//   }
+//   80%{
+//     -webkit-transform: translateX(4%);
+//   }
+//   95%{
+//     -webkit-transform: translateX(-2%);
+//   }
+//   100% {
+//     -webkit-transform: translateX(0%);
+//   }
+
+// }

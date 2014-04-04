@@ -5,50 +5,73 @@
 /* line 3, ../sass/_layout.scss */
 body {
   background-color: #485367;
-  background-image: url("../img/manhattan-js-logo.svg");
-  background-repeat: no-repeat;
-  background-position: top right;
   position: relative;
 }
-@media screen and (max-width: 770px) {
-  /* line 3, ../sass/_layout.scss */
-  body {
-    background-image: none;
-  }
-}
 
-/* line 14, ../sass/_layout.scss */
+/* line 8, ../sass/_layout.scss */
 .small-logo {
   display: none;
 }
 @media screen and (max-width: 770px) {
-  /* line 14, ../sass/_layout.scss */
+  /* line 8, ../sass/_layout.scss */
   .small-logo {
     display: inline;
     margin-right: 4px;
   }
 }
 
-/* line 22, ../sass/_layout.scss */
+/* line 16, ../sass/_layout.scss */
+.scrolling-clouds {
+  height: 200px;
+  width: auto;
+  position: absolute;
+  top: 0;
+  right: 250px;
+  z-index: 1;
+}
+
+/* line 25, ../sass/_layout.scss */
+.js-ease-out-right {
+  -webkit-transition: all 5.0s ease-in-out;
+  -webkit-transform: translateX(1000px);
+}
+
+/* line 29, ../sass/_layout.scss */
+.chrysler-building {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 220px;
+  height: auto;
+  z-index: 10;
+}
+@media screen and (max-width: 770px) {
+  /* line 29, ../sass/_layout.scss */
+  .chrysler-building {
+    display: none;
+  }
+}
+
+/* line 41, ../sass/_layout.scss */
 .wordmark {
   display: inline-block;
   position: relative;
   top: 16px;
 }
 
-/* line 28, ../sass/_layout.scss */
+/* line 47, ../sass/_layout.scss */
 ::-moz-selection {
   background: #c7e6d7;
   text-shadow: none;
 }
 
-/* line 33, ../sass/_layout.scss */
+/* line 52, ../sass/_layout.scss */
 ::selection {
   background: #c7e6d7;
   text-shadow: none;
 }
 
-/* line 38, ../sass/_layout.scss */
+/* line 57, ../sass/_layout.scss */
 hr {
   border: 0;
   border-top: 1px solid white;
@@ -58,24 +81,24 @@ hr {
   padding: 0;
 }
 
-/* line 47, ../sass/_layout.scss */
+/* line 66, ../sass/_layout.scss */
 img {
   vertical-align: middle;
 }
 
-/* line 51, ../sass/_layout.scss */
+/* line 70, ../sass/_layout.scss */
 fieldset {
   border: 0;
   margin: 0;
   padding: 0;
 }
 
-/* line 57, ../sass/_layout.scss */
+/* line 76, ../sass/_layout.scss */
 textarea {
   resize: vertical;
 }
 
-/* line 61, ../sass/_layout.scss */
+/* line 80, ../sass/_layout.scss */
 .chromeframe {
   background: #ccc;
   color: #000;
@@ -83,29 +106,29 @@ textarea {
   padding: 0.2em 0;
 }
 
-/* line 68, ../sass/_layout.scss */
+/* line 87, ../sass/_layout.scss */
 .wrapper {
   margin: 0 5%;
   width: 90%;
 }
 
-/* line 73, ../sass/_layout.scss */
+/* line 92, ../sass/_layout.scss */
 .main {
   padding: 30px 0;
 }
-/* line 75, ../sass/_layout.scss */
+/* line 94, ../sass/_layout.scss */
 .main article {
   color: white;
   width: 80%;
 }
 
-/* line 81, ../sass/_layout.scss */
+/* line 100, ../sass/_layout.scss */
 .hidden {
   display: none !important;
   visibility: hidden;
 }
 
-/* line 86, ../sass/_layout.scss */
+/* line 105, ../sass/_layout.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -117,7 +140,7 @@ textarea {
   width: 1px;
 }
 
-/* line 98, ../sass/_layout.scss */
+/* line 117, ../sass/_layout.scss */
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
   clip: auto;
@@ -128,24 +151,24 @@ textarea {
   width: auto;
 }
 
-/* line 107, ../sass/_layout.scss */
+/* line 126, ../sass/_layout.scss */
 .invisible {
   visibility: hidden;
 }
 
-/* line 112, ../sass/_layout.scss */
+/* line 131, ../sass/_layout.scss */
 .clearfix:before,
 .clearfix:after {
   content: " ";
   display: table;
 }
 
-/* line 117, ../sass/_layout.scss */
+/* line 136, ../sass/_layout.scss */
 .clearfix:after {
   clear: both;
 }
 
-/* line 121, ../sass/_layout.scss */
+/* line 140, ../sass/_layout.scss */
 .clearfix {
   *zoom: 1;
 }
@@ -170,7 +193,7 @@ a:hover {
 /* line 17, ../sass/_typography.scss */
 h1, h2, h3 {
   font-family: "Raleway", helvetica, sans-serif;
-  line-height: 1.2em;
+  line-height: 1.3em;
 }
 
 /* line 22, ../sass/_typography.scss */
