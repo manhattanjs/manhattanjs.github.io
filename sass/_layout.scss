@@ -63,6 +63,11 @@ body {
   display: inline-block;
   position: relative;
   top: 16px;
+  width: 215px;
+  height: auto;
+  @media screen and (max-width: 770px) {
+    width: auto;
+  }
 }
 
 ::-moz-selection {
