@@ -2,7 +2,8 @@
 
 .speakers {
   margin-top: 20px;
-  @media screen and (max-width: 600px) {
+
+  @include breakpoint(small) {
     .speakers {
       margin: 40px 0;
     }
@@ -11,10 +12,16 @@
 
 .speaker {
   display: inline-block;
-  margin-right: 4%;
+  margin-right: 3%;
   vertical-align: top;
-  width: 28%;
-  @media screen and (max-width: 600px) {
+  width: 29%;
+
+  a {
+    font-family: $header-font;
+    font-size: 1.1rem;
+  }
+
+  @include breakpoint(medium) {
     display: block;
     width: 100%;
   }
@@ -22,9 +29,17 @@
 
 .next-event {
   color: $white;
-  font-family: $header-font;
-  line-height: 1.2em;
-  margin: 1.2em 0;
+  margin: 3em 0;
+
+  h1 {
+    font-family: $header-font;
+    line-height: 1.2em;
+    margin-bottom: 5px;
+  }
+
+  @include breakpoint(medium) {
+    margin-bottom: 0;
+  }
 }
 
 .charity-copy {
@@ -41,6 +56,14 @@
   font-weight: bold;
 }
 
+.tickets-link-container {
+  @include breakpoint(medium) {
+    border-bottom: 1px solid rgba(255,255,255,.2);
+    padding-bottom: 3em;
+    margin: 3em 0;
+  }
+}
+
 a.tickets-link:hover {
   color: $red;
 }
@@ -51,6 +74,7 @@ a.tickets-link:hover {
 
 .sold-out-copy a {
   color: $light-blue;
+
   &:hover {
     color: $red;
   }

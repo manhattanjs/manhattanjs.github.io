@@ -4,6 +4,7 @@
   background-color: $dark-blue;
   font-size: .8em;
   line-height: 1.5em;
+  overflow: hidden;
   padding: 15px 0;
   position: relative;
   left: 0px;
@@ -18,4 +19,10 @@
       }
     }
   }
+}
+
+.footer-credits {
+}
+
+.pizza-disclaimer {
 }
