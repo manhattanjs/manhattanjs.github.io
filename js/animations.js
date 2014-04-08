@@ -1,8 +1,6 @@
 // Float the Clouds
 
 $(document).ready(function(){
-  var windowTop = $(window).scrollTop(),
-      windowHeight = $(window).height()
 
   $(window).scroll(function(){
     windowTop = $(window).scrollTop();
