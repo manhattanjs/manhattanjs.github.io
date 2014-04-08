@@ -1,86 +1,384 @@
-/*
-Syntax error: Undefined mixin 'ease-out-right'.
-        on line 52 of /Users/brendastorer/Development/manhattanjs.github.io/sass/_layout.scss, in `ease-out-right'
-        from line 52 of /Users/brendastorer/Development/manhattanjs.github.io/sass/_layout.scss
-        from line 6 of /Users/brendastorer/Development/manhattanjs.github.io/sass/screen.scss
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 3, ../sass/_layout.scss */
+body {
+  background-color: #485367;
+  position: relative;
+}
+@media (max-width: 770px) {
+  /* line 3, ../sass/_layout.scss */
+  body {
+    background-image: none;
+  }
+}
 
-Backtrace:
-/Users/brendastorer/Development/manhattanjs.github.io/sass/_layout.scss:52:in `ease-out-right'
-/Users/brendastorer/Development/manhattanjs.github.io/sass/_layout.scss:52
-/Users/brendastorer/Development/manhattanjs.github.io/sass/screen.scss:6
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.18/lib/sass/tree/visitors/perform.rb:253:in `visit_mixin'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.18/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.18/lib/sass/tree/visitors/perform.rb:100:in `visit'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.18/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.18/lib/sass/tree/visitors/base.rb:53:in `map'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.18/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.18/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.18/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.18/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.18/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.18/lib/sass/tree/visitors/perform.rb:320:in `visit_rule'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.18/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.18/lib/sass/tree/visitors/perform.rb:100:in `visit'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.18/lib/sass/tree/visitors/perform.rb:227:in `block in visit_import'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.18/lib/sass/tree/visitors/perform.rb:227:in `map'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.18/lib/sass/tree/visitors/perform.rb:227:in `visit_import'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.18/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.18/lib/sass/tree/visitors/perform.rb:100:in `visit'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.18/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.18/lib/sass/tree/visitors/base.rb:53:in `map'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.18/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.18/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.18/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.18/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.18/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.18/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.18/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.18/lib/sass/tree/visitors/perform.rb:100:in `visit'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.18/lib/sass/tree/visitors/perform.rb:7:in `visit'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.18/lib/sass/tree/root_node.rb:20:in `render'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.18/lib/sass/engine.rb:315:in `_render'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.2.18/lib/sass/engine.rb:262:in `render'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/gems/compass-0.12.4/lib/compass/compiler.rb:139:in `block (2 levels) in compile'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/gems/compass-0.12.4/lib/compass/compiler.rb:126:in `timed'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/gems/compass-0.12.4/lib/compass/compiler.rb:138:in `block in compile'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/gems/compass-0.12.4/lib/compass/logger.rb:45:in `red'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/gems/compass-0.12.4/lib/compass/compiler.rb:137:in `compile'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/gems/compass-0.12.4/lib/compass/compiler.rb:118:in `compile_if_required'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/gems/compass-0.12.4/lib/compass/compiler.rb:103:in `block (2 levels) in run'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/gems/compass-0.12.4/lib/compass/compiler.rb:101:in `each'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/gems/compass-0.12.4/lib/compass/compiler.rb:101:in `block in run'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/gems/compass-0.12.4/lib/compass/compiler.rb:126:in `timed'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/gems/compass-0.12.4/lib/compass/compiler.rb:100:in `run'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/gems/compass-0.12.4/lib/compass/commands/watch_project.rb:147:in `recompile'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/gems/fssm-0.2.10/lib/fssm/path.rb:73:in `call'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/gems/fssm-0.2.10/lib/fssm/path.rb:73:in `run_callback'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/gems/fssm-0.2.10/lib/fssm/path.rb:55:in `callback_action'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/gems/fssm-0.2.10/lib/fssm/path.rb:35:in `update'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/gems/fssm-0.2.10/lib/fssm/state/directory.rb:39:in `block in modified'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/gems/fssm-0.2.10/lib/fssm/state/directory.rb:37:in `each'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/gems/fssm-0.2.10/lib/fssm/state/directory.rb:37:in `modified'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/gems/fssm-0.2.10/lib/fssm/state/directory.rb:18:in `refresh'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `block (2 levels) in run'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `each'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `block in run'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:15:in `loop'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:15:in `run'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/gems/fssm-0.2.10/lib/fssm/monitor.rb:26:in `run'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/gems/fssm-0.2.10/lib/fssm.rb:70:in `monitor'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/gems/compass-0.12.4/lib/compass/commands/watch_project.rb:87:in `perform'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/gems/compass-0.12.4/lib/compass/commands/base.rb:18:in `execute'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/gems/compass-0.12.4/lib/compass/commands/project_base.rb:19:in `execute'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/gems/compass-0.12.4/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/gems/compass-0.12.4/lib/compass/exec/sub_command_ui.rb:15:in `run!'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/gems/compass-0.12.4/bin/compass:30:in `block in <top (required)>'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/gems/compass-0.12.4/bin/compass:44:in `call'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/gems/compass-0.12.4/bin/compass:44:in `<top (required)>'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/bin/compass:23:in `load'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/bin/compass:23:in `<main>'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `eval'
-/Users/brendastorer/.rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: Undefined mixin 'ease-out-right'.\A         on line 52 of /Users/brendastorer/Development/manhattanjs.github.io/sass/_layout.scss, in `ease-out-right'\A         from line 52 of /Users/brendastorer/Development/manhattanjs.github.io/sass/_layout.scss\A         from line 6 of /Users/brendastorer/Development/manhattanjs.github.io/sass/screen.scss"; }
+/* line 12, ../sass/_layout.scss */
+.small-logo {
+  display: none;
+}
+@media (max-width: 770px) {
+  /* line 12, ../sass/_layout.scss */
+  .small-logo {
+    display: inline;
+    margin-right: 4px;
+  }
+}
+
+/* line 21, ../sass/_layout.scss */
+.clouds {
+  position: absolute;
+  right: 400px;
+  top: 20px;
+}
+@media (max-width: 770px) {
+  /* line 21, ../sass/_layout.scss */
+  .clouds {
+    display: none;
+  }
+}
+/* line 29, ../sass/_layout.scss */
+.clouds img {
+  width: auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+/* line 37, ../sass/_layout.scss */
+.clouds .cloud-1 {
+  height: 120px;
+  top: 0;
+  left: 0;
+}
+/* line 43, ../sass/_layout.scss */
+.clouds .cloud-2 {
+  height: 100px;
+  margin-left: -100px;
+  top: 130px;
+  left: 0;
+}
+
+/* line 51, ../sass/_layout.scss */
+.chrysler-building {
+  position: absolute;
+  top: 0;
+  right: 40px;
+  width: 190px;
+  height: auto;
+  z-index: 10;
+}
+@media (max-width: 770px) {
+  /* line 51, ../sass/_layout.scss */
+  .chrysler-building {
+    display: none;
+  }
+}
+
+/* line 63, ../sass/_layout.scss */
+.wordmark {
+  display: inline-block;
+  position: relative;
+  top: 16px;
+  width: 215px;
+  height: auto;
+}
+@media (max-width: 770px) {
+  /* line 63, ../sass/_layout.scss */
+  .wordmark {
+    width: auto;
+  }
+}
+
+/* line 74, ../sass/_layout.scss */
+::-moz-selection {
+  background: #c7e6d7;
+  text-shadow: none;
+}
+
+/* line 79, ../sass/_layout.scss */
+::selection {
+  background: #c7e6d7;
+  text-shadow: none;
+}
+
+/* line 84, ../sass/_layout.scss */
+hr {
+  border: 0;
+  border-top: 1px solid white;
+  display: block;
+  height: 1px;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* line 93, ../sass/_layout.scss */
+img {
+  vertical-align: middle;
+}
+
+/* line 97, ../sass/_layout.scss */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 103, ../sass/_layout.scss */
+textarea {
+  resize: vertical;
+}
+
+/* line 107, ../sass/_layout.scss */
+.chromeframe {
+  background: #ccc;
+  color: #000;
+  margin: 0.2em 0;
+  padding: 0.2em 0;
+}
+
+/* line 114, ../sass/_layout.scss */
+.wrapper {
+  margin: 0 5%;
+  width: 90%;
+}
+
+/* line 119, ../sass/_layout.scss */
+.main {
+  padding: 30px 0;
+}
+/* line 121, ../sass/_layout.scss */
+.main article {
+  color: white;
+  width: 80%;
+}
+
+/* line 127, ../sass/_layout.scss */
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+/* line 132, ../sass/_layout.scss */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/* line 144, ../sass/_layout.scss */
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+/* line 153, ../sass/_layout.scss */
+.invisible {
+  visibility: hidden;
+}
+
+/* line 158, ../sass/_layout.scss */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+/* line 163, ../sass/_layout.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 167, ../sass/_layout.scss */
+.clearfix {
+  *zoom: 1;
+}
+
+/* line 3, ../sass/_typography.scss */
+html {
+  font-family: "Quattrocento", georgia, serif;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+/* line 9, ../sass/_typography.scss */
+a {
+  color: white;
+  text-decoration: none;
+}
+/* line 12, ../sass/_typography.scss */
+a:hover {
+  color: #e33e57;
+}
+
+/* line 17, ../sass/_typography.scss */
+h1, h2, h3 {
+  font-family: "Raleway", helvetica, sans-serif;
+  line-height: 1.3em;
+}
+
+/* line 22, ../sass/_typography.scss */
+p {
+  line-height: 1.5em;
+}
+
+/* line 3, ../sass/_next-event.scss */
+.speakers {
+  margin-top: 20px;
+}
+@media (max-width: 600px) {
+  /* line 7, ../sass/_next-event.scss */
+  .speakers .speakers {
+    margin: 40px 0;
+  }
+}
+
+/* line 13, ../sass/_next-event.scss */
+.speaker {
+  display: inline-block;
+  margin-right: 3%;
+  vertical-align: top;
+  width: 29%;
+}
+/* line 19, ../sass/_next-event.scss */
+.speaker a {
+  font-family: "Raleway", helvetica, sans-serif;
+  font-size: 1.1rem;
+}
+@media (max-width: 770px) {
+  /* line 13, ../sass/_next-event.scss */
+  .speaker {
+    display: block;
+    width: 100%;
+  }
+}
+
+/* line 30, ../sass/_next-event.scss */
+.next-event {
+  color: white;
+  margin: 3em 0;
+}
+/* line 34, ../sass/_next-event.scss */
+.next-event h1 {
+  font-family: "Raleway", helvetica, sans-serif;
+  line-height: 1.2em;
+  margin-bottom: 5px;
+}
+@media (max-width: 770px) {
+  /* line 30, ../sass/_next-event.scss */
+  .next-event {
+    margin-bottom: 0;
+  }
+}
+
+/* line 45, ../sass/_next-event.scss */
+.charity-copy {
+  color: white;
+  font-size: 12px;
+  margin: 0;
+}
+
+/* line 52, ../sass/_next-event.scss */
+.time,
+.tickets-link {
+  color: #c7e6d7;
+  font-family: "Raleway", helvetica, sans-serif;
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+@media (max-width: 770px) {
+  /* line 59, ../sass/_next-event.scss */
+  .tickets-link-container {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 3em;
+    margin: 3em 0;
+  }
+}
+
+/* line 67, ../sass/_next-event.scss */
+a.tickets-link:hover {
+  color: #e33e57;
+}
+
+/* line 71, ../sass/_next-event.scss */
+.sold-out-copy {
+  color: white;
+}
+
+/* line 75, ../sass/_next-event.scss */
+.sold-out-copy a {
+  color: #c7e6d7;
+}
+/* line 78, ../sass/_next-event.scss */
+.sold-out-copy a:hover {
+  color: #e33e57;
+}
+
+/* line 83, ../sass/_next-event.scss */
+.speaker-name {
+  margin-bottom: 0;
+}
+
+/* line 87, ../sass/_next-event.scss */
+.time {
+  margin-bottom: -10px;
+}
+
+/* line 3, ../sass/_about.scss */
+.about {
+  color: white;
+  margin-bottom: 0;
+  padding: 20px 0;
+}
+/* line 7, ../sass/_about.scss */
+.about hr {
+  margin-bottom: 40px;
+  opacity: .2;
+}
+
+/* line 3, ../sass/_speak-sponsor.scss */
+.sponsors-container {
+  max-width: 800px;
+}
+
+/* line 7, ../sass/_speak-sponsor.scss */
+.email {
+  color: #c7e6d7;
+}
+
+/* line 3, ../sass/_footer.scss */
+.footer-container {
+  background-color: #2d343d;
+  font-size: .8em;
+  line-height: 1.5em;
+  overflow: hidden;
+  padding: 15px 0;
+  position: relative;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+}
+/* line 13, ../sass/_footer.scss */
+.footer-container footer {
+  color: #7385a0;
+}
+/* line 15, ../sass/_footer.scss */
+.footer-container footer a {
+  color: #7385a0;
+}
+/* line 17, ../sass/_footer.scss */
+.footer-container footer a:hover {
+  color: #e33e57;
+}
