@@ -13,13 +13,34 @@ body {
   }
 }
 
-.scrolling-clouds {
-  height: 200px;
-  width: auto;
+.clouds {
   position: absolute;
-  top: 0;
-  right: 250px;
-  z-index: 1;
+  right: 400px;
+  top: 20px;
+  @media screen and (max-width: 770px) {
+    display: none;
+  }
+
+  img {
+    width: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+  }
+
+  .cloud-1 {
+    height: 120px;
+    top: 0;
+    left: 0;
+  }
+
+  .cloud-2 {
+    height: 100px;
+    margin-left: -100px;
+    top: 130px;
+    left: 0;
+  }
 }
 
 .js-ease-out-right {
@@ -29,8 +50,8 @@ body {
 .chrysler-building {
   position: absolute;
   top: 0;
-  right: 0;
-  width: 220px;
+  right: 40px;
+  width: 190px;
   height: auto;
   z-index: 10;
   @media screen and (max-width: 770px) {

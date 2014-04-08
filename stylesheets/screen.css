@@ -21,57 +21,81 @@ body {
 }
 
 /* line 16, ../sass/_layout.scss */
-.scrolling-clouds {
-  height: 200px;
+.clouds {
+  position: absolute;
+  right: 400px;
+  top: 20px;
+}
+@media screen and (max-width: 770px) {
+  /* line 16, ../sass/_layout.scss */
+  .clouds {
+    display: none;
+  }
+}
+/* line 24, ../sass/_layout.scss */
+.clouds img {
   width: auto;
   position: absolute;
   top: 0;
-  right: 250px;
-  z-index: 1;
+  right: 0;
+  z-index: -1;
+}
+/* line 32, ../sass/_layout.scss */
+.clouds .cloud-1 {
+  height: 120px;
+  top: 0;
+  left: 0;
+}
+/* line 38, ../sass/_layout.scss */
+.clouds .cloud-2 {
+  height: 100px;
+  margin-left: -100px;
+  top: 130px;
+  left: 0;
 }
 
-/* line 25, ../sass/_layout.scss */
+/* line 46, ../sass/_layout.scss */
 .js-ease-out-right {
   -webkit-transition: all 5.0s ease-in-out;
   -webkit-transform: translateX(1000px);
 }
 
-/* line 29, ../sass/_layout.scss */
+/* line 50, ../sass/_layout.scss */
 .chrysler-building {
   position: absolute;
   top: 0;
-  right: 0;
-  width: 220px;
+  right: 40px;
+  width: 190px;
   height: auto;
   z-index: 10;
 }
 @media screen and (max-width: 770px) {
-  /* line 29, ../sass/_layout.scss */
+  /* line 50, ../sass/_layout.scss */
   .chrysler-building {
     display: none;
   }
 }
 
-/* line 41, ../sass/_layout.scss */
+/* line 62, ../sass/_layout.scss */
 .wordmark {
   display: inline-block;
   position: relative;
   top: 16px;
 }
 
-/* line 47, ../sass/_layout.scss */
+/* line 68, ../sass/_layout.scss */
 ::-moz-selection {
   background: #c7e6d7;
   text-shadow: none;
 }
 
-/* line 52, ../sass/_layout.scss */
+/* line 73, ../sass/_layout.scss */
 ::selection {
   background: #c7e6d7;
   text-shadow: none;
 }
 
-/* line 57, ../sass/_layout.scss */
+/* line 78, ../sass/_layout.scss */
 hr {
   border: 0;
   border-top: 1px solid white;
@@ -81,24 +105,24 @@ hr {
   padding: 0;
 }
 
-/* line 66, ../sass/_layout.scss */
+/* line 87, ../sass/_layout.scss */
 img {
   vertical-align: middle;
 }
 
-/* line 70, ../sass/_layout.scss */
+/* line 91, ../sass/_layout.scss */
 fieldset {
   border: 0;
   margin: 0;
   padding: 0;
 }
 
-/* line 76, ../sass/_layout.scss */
+/* line 97, ../sass/_layout.scss */
 textarea {
   resize: vertical;
 }
 
-/* line 80, ../sass/_layout.scss */
+/* line 101, ../sass/_layout.scss */
 .chromeframe {
   background: #ccc;
   color: #000;
@@ -106,29 +130,29 @@ textarea {
   padding: 0.2em 0;
 }
 
-/* line 87, ../sass/_layout.scss */
+/* line 108, ../sass/_layout.scss */
 .wrapper {
   margin: 0 5%;
   width: 90%;
 }
 
-/* line 92, ../sass/_layout.scss */
+/* line 113, ../sass/_layout.scss */
 .main {
   padding: 30px 0;
 }
-/* line 94, ../sass/_layout.scss */
+/* line 115, ../sass/_layout.scss */
 .main article {
   color: white;
   width: 80%;
 }
 
-/* line 100, ../sass/_layout.scss */
+/* line 121, ../sass/_layout.scss */
 .hidden {
   display: none !important;
   visibility: hidden;
 }
 
-/* line 105, ../sass/_layout.scss */
+/* line 126, ../sass/_layout.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -140,7 +164,7 @@ textarea {
   width: 1px;
 }
 
-/* line 117, ../sass/_layout.scss */
+/* line 138, ../sass/_layout.scss */
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
   clip: auto;
@@ -151,24 +175,24 @@ textarea {
   width: auto;
 }
 
-/* line 126, ../sass/_layout.scss */
+/* line 147, ../sass/_layout.scss */
 .invisible {
   visibility: hidden;
 }
 
-/* line 131, ../sass/_layout.scss */
+/* line 152, ../sass/_layout.scss */
 .clearfix:before,
 .clearfix:after {
   content: " ";
   display: table;
 }
 
-/* line 136, ../sass/_layout.scss */
+/* line 157, ../sass/_layout.scss */
 .clearfix:after {
   clear: both;
 }
 
-/* line 140, ../sass/_layout.scss */
+/* line 161, ../sass/_layout.scss */
 .clearfix {
   *zoom: 1;
 }
