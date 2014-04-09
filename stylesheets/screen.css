@@ -151,16 +151,22 @@ textarea {
 /* line 121, ../sass/_layout.scss */
 .main article {
   color: white;
-  width: 80%;
+  width: 75%;
+}
+@media (max-width: 770px) {
+  /* line 121, ../sass/_layout.scss */
+  .main article {
+    width: 100%;
+  }
 }
 
-/* line 127, ../sass/_layout.scss */
+/* line 131, ../sass/_layout.scss */
 .hidden {
   display: none !important;
   visibility: hidden;
 }
 
-/* line 132, ../sass/_layout.scss */
+/* line 136, ../sass/_layout.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -172,7 +178,7 @@ textarea {
   width: 1px;
 }
 
-/* line 144, ../sass/_layout.scss */
+/* line 148, ../sass/_layout.scss */
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
   clip: auto;
@@ -183,24 +189,24 @@ textarea {
   width: auto;
 }
 
-/* line 153, ../sass/_layout.scss */
+/* line 157, ../sass/_layout.scss */
 .invisible {
   visibility: hidden;
 }
 
-/* line 158, ../sass/_layout.scss */
+/* line 162, ../sass/_layout.scss */
 .clearfix:before,
 .clearfix:after {
   content: " ";
   display: table;
 }
 
-/* line 163, ../sass/_layout.scss */
+/* line 167, ../sass/_layout.scss */
 .clearfix:after {
   clear: both;
 }
 
-/* line 167, ../sass/_layout.scss */
+/* line 171, ../sass/_layout.scss */
 .clearfix {
   *zoom: 1;
 }
@@ -350,10 +356,16 @@ a.tickets-link:hover {
 
 /* line 3, ../sass/_speak-sponsor.scss */
 .sponsors-container {
-  max-width: 800px;
+  width: 75%;
+}
+@media (max-width: 770px) {
+  /* line 3, ../sass/_speak-sponsor.scss */
+  .sponsors-container {
+    width: 100%;
+  }
 }
 
-/* line 7, ../sass/_speak-sponsor.scss */
+/* line 10, ../sass/_speak-sponsor.scss */
 .email {
   color: #c7e6d7;
 }

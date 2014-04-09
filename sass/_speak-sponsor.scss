@@ -1,7 +1,10 @@
 @import "variables";
 
 .sponsors-container {
-  max-width: 800px;
+  width: 75%;
+  @include breakpoint(medium) {
+    width: 100%;
+  }
 }
 
 .email {
