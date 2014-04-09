@@ -7,32 +7,38 @@ body {
   background-color: #485367;
   position: relative;
 }
+@media (max-width: 770px) {
+  /* line 3, ../sass/_layout.scss */
+  body {
+    background-image: none;
+  }
+}
 
-/* line 8, ../sass/_layout.scss */
+/* line 12, ../sass/_layout.scss */
 .small-logo {
   display: none;
 }
-@media screen and (max-width: 770px) {
-  /* line 8, ../sass/_layout.scss */
+@media (max-width: 770px) {
+  /* line 12, ../sass/_layout.scss */
   .small-logo {
     display: inline;
     margin-right: 4px;
   }
 }
 
-/* line 16, ../sass/_layout.scss */
+/* line 21, ../sass/_layout.scss */
 .clouds {
   position: absolute;
   right: 400px;
   top: 20px;
 }
-@media screen and (max-width: 770px) {
-  /* line 16, ../sass/_layout.scss */
+@media (max-width: 770px) {
+  /* line 21, ../sass/_layout.scss */
   .clouds {
     display: none;
   }
 }
-/* line 24, ../sass/_layout.scss */
+/* line 29, ../sass/_layout.scss */
 .clouds img {
   width: auto;
   position: absolute;
@@ -40,13 +46,13 @@ body {
   right: 0;
   z-index: -1;
 }
-/* line 32, ../sass/_layout.scss */
+/* line 37, ../sass/_layout.scss */
 .clouds .cloud-1 {
   height: 120px;
   top: 0;
   left: 0;
 }
-/* line 38, ../sass/_layout.scss */
+/* line 43, ../sass/_layout.scss */
 .clouds .cloud-2 {
   height: 100px;
   margin-left: -100px;
@@ -54,13 +60,7 @@ body {
   left: 0;
 }
 
-/* line 46, ../sass/_layout.scss */
-.js-ease-out-right {
-  -webkit-transition: all 5.0s ease-in-out;
-  -webkit-transform: translateX(1000px);
-}
-
-/* line 50, ../sass/_layout.scss */
+/* line 51, ../sass/_layout.scss */
 .chrysler-building {
   position: absolute;
   top: 0;
@@ -69,14 +69,14 @@ body {
   height: auto;
   z-index: 10;
 }
-@media screen and (max-width: 770px) {
-  /* line 50, ../sass/_layout.scss */
+@media (max-width: 770px) {
+  /* line 51, ../sass/_layout.scss */
   .chrysler-building {
     display: none;
   }
 }
 
-/* line 62, ../sass/_layout.scss */
+/* line 63, ../sass/_layout.scss */
 .wordmark {
   display: inline-block;
   position: relative;
@@ -84,26 +84,26 @@ body {
   width: 215px;
   height: auto;
 }
-@media screen and (max-width: 770px) {
-  /* line 62, ../sass/_layout.scss */
+@media (max-width: 770px) {
+  /* line 63, ../sass/_layout.scss */
   .wordmark {
     width: auto;
   }
 }
 
-/* line 73, ../sass/_layout.scss */
+/* line 74, ../sass/_layout.scss */
 ::-moz-selection {
   background: #c7e6d7;
   text-shadow: none;
 }
 
-/* line 78, ../sass/_layout.scss */
+/* line 79, ../sass/_layout.scss */
 ::selection {
   background: #c7e6d7;
   text-shadow: none;
 }
 
-/* line 83, ../sass/_layout.scss */
+/* line 84, ../sass/_layout.scss */
 hr {
   border: 0;
   border-top: 1px solid white;
@@ -113,24 +113,24 @@ hr {
   padding: 0;
 }
 
-/* line 92, ../sass/_layout.scss */
+/* line 93, ../sass/_layout.scss */
 img {
   vertical-align: middle;
 }
 
-/* line 96, ../sass/_layout.scss */
+/* line 97, ../sass/_layout.scss */
 fieldset {
   border: 0;
   margin: 0;
   padding: 0;
 }
 
-/* line 102, ../sass/_layout.scss */
+/* line 103, ../sass/_layout.scss */
 textarea {
   resize: vertical;
 }
 
-/* line 106, ../sass/_layout.scss */
+/* line 107, ../sass/_layout.scss */
 .chromeframe {
   background: #ccc;
   color: #000;
@@ -138,29 +138,35 @@ textarea {
   padding: 0.2em 0;
 }
 
-/* line 113, ../sass/_layout.scss */
+/* line 114, ../sass/_layout.scss */
 .wrapper {
   margin: 0 5%;
   width: 90%;
 }
 
-/* line 118, ../sass/_layout.scss */
+/* line 119, ../sass/_layout.scss */
 .main {
   padding: 30px 0;
 }
-/* line 120, ../sass/_layout.scss */
+/* line 121, ../sass/_layout.scss */
 .main article {
   color: white;
-  width: 80%;
+  width: 75%;
+}
+@media (max-width: 770px) {
+  /* line 121, ../sass/_layout.scss */
+  .main article {
+    width: 100%;
+  }
 }
 
-/* line 126, ../sass/_layout.scss */
+/* line 131, ../sass/_layout.scss */
 .hidden {
   display: none !important;
   visibility: hidden;
 }
 
-/* line 131, ../sass/_layout.scss */
+/* line 136, ../sass/_layout.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -172,7 +178,7 @@ textarea {
   width: 1px;
 }
 
-/* line 143, ../sass/_layout.scss */
+/* line 148, ../sass/_layout.scss */
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
   clip: auto;
@@ -183,24 +189,24 @@ textarea {
   width: auto;
 }
 
-/* line 152, ../sass/_layout.scss */
+/* line 157, ../sass/_layout.scss */
 .invisible {
   visibility: hidden;
 }
 
-/* line 157, ../sass/_layout.scss */
+/* line 162, ../sass/_layout.scss */
 .clearfix:before,
 .clearfix:after {
   content: " ";
   display: table;
 }
 
-/* line 162, ../sass/_layout.scss */
+/* line 167, ../sass/_layout.scss */
 .clearfix:after {
   clear: both;
 }
 
-/* line 166, ../sass/_layout.scss */
+/* line 171, ../sass/_layout.scss */
 .clearfix {
   *zoom: 1;
 }
@@ -237,44 +243,59 @@ p {
 .speakers {
   margin-top: 20px;
 }
-@media screen and (max-width: 600px) {
-  /* line 6, ../sass/_next-event.scss */
+@media (max-width: 600px) {
+  /* line 7, ../sass/_next-event.scss */
   .speakers .speakers {
     margin: 40px 0;
   }
 }
 
-/* line 12, ../sass/_next-event.scss */
+/* line 13, ../sass/_next-event.scss */
 .speaker {
   display: inline-block;
-  margin-right: 4%;
+  margin-right: 3%;
   vertical-align: top;
-  width: 28%;
+  width: 29%;
 }
-@media screen and (max-width: 600px) {
-  /* line 12, ../sass/_next-event.scss */
+/* line 19, ../sass/_next-event.scss */
+.speaker a {
+  font-family: "Raleway", helvetica, sans-serif;
+  font-size: 1.1rem;
+}
+@media (max-width: 770px) {
+  /* line 13, ../sass/_next-event.scss */
   .speaker {
     display: block;
     width: 100%;
   }
 }
 
-/* line 23, ../sass/_next-event.scss */
+/* line 30, ../sass/_next-event.scss */
 .next-event {
   color: white;
+  margin: 3em 0;
+}
+/* line 34, ../sass/_next-event.scss */
+.next-event h1 {
   font-family: "Raleway", helvetica, sans-serif;
   line-height: 1.2em;
-  margin: 1.2em 0;
+  margin-bottom: 5px;
+}
+@media (max-width: 770px) {
+  /* line 30, ../sass/_next-event.scss */
+  .next-event {
+    margin-bottom: 0;
+  }
 }
 
-/* line 30, ../sass/_next-event.scss */
+/* line 45, ../sass/_next-event.scss */
 .charity-copy {
   color: white;
   font-size: 12px;
   margin: 0;
 }
 
-/* line 37, ../sass/_next-event.scss */
+/* line 52, ../sass/_next-event.scss */
 .time,
 .tickets-link {
   color: #c7e6d7;
@@ -283,31 +304,40 @@ p {
   font-weight: bold;
 }
 
-/* line 44, ../sass/_next-event.scss */
+@media (max-width: 770px) {
+  /* line 59, ../sass/_next-event.scss */
+  .tickets-link-container {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 3em;
+    margin: 3em 0;
+  }
+}
+
+/* line 67, ../sass/_next-event.scss */
 a.tickets-link:hover {
   color: #e33e57;
 }
 
-/* line 48, ../sass/_next-event.scss */
+/* line 71, ../sass/_next-event.scss */
 .sold-out-copy {
   color: white;
 }
 
-/* line 52, ../sass/_next-event.scss */
+/* line 75, ../sass/_next-event.scss */
 .sold-out-copy a {
   color: #c7e6d7;
 }
-/* line 54, ../sass/_next-event.scss */
+/* line 78, ../sass/_next-event.scss */
 .sold-out-copy a:hover {
   color: #e33e57;
 }
 
-/* line 59, ../sass/_next-event.scss */
+/* line 83, ../sass/_next-event.scss */
 .speaker-name {
   margin-bottom: 0;
 }
 
-/* line 63, ../sass/_next-event.scss */
+/* line 87, ../sass/_next-event.scss */
 .time {
   margin-bottom: -10px;
 }
@@ -326,10 +356,16 @@ a.tickets-link:hover {
 
 /* line 3, ../sass/_speak-sponsor.scss */
 .sponsors-container {
-  max-width: 800px;
+  width: 75%;
+}
+@media (max-width: 770px) {
+  /* line 3, ../sass/_speak-sponsor.scss */
+  .sponsors-container {
+    width: 100%;
+  }
 }
 
-/* line 7, ../sass/_speak-sponsor.scss */
+/* line 10, ../sass/_speak-sponsor.scss */
 .email {
   color: #c7e6d7;
 }
@@ -339,21 +375,22 @@ a.tickets-link:hover {
   background-color: #2d343d;
   font-size: .8em;
   line-height: 1.5em;
+  overflow: hidden;
   padding: 15px 0;
   position: relative;
   left: 0px;
   bottom: 0px;
   width: 100%;
 }
-/* line 12, ../sass/_footer.scss */
+/* line 13, ../sass/_footer.scss */
 .footer-container footer {
   color: #7385a0;
 }
-/* line 14, ../sass/_footer.scss */
+/* line 15, ../sass/_footer.scss */
 .footer-container footer a {
   color: #7385a0;
 }
-/* line 16, ../sass/_footer.scss */
+/* line 17, ../sass/_footer.scss */
 .footer-container footer a:hover {
   color: #e33e57;
 }

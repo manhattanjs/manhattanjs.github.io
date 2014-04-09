@@ -3,11 +3,16 @@
 body {
   background-color: $medium-blue;
   position: relative;
+
+  @include breakpoint(medium) {
+    background-image: none;
+  }
 }
 
 .small-logo {
   display: none;
-  @media screen and (max-width: 770px) {
+
+  @include breakpoint(medium) {
     display: inline;
     margin-right: 4px;
   }
@@ -17,7 +22,7 @@ body {
   position: absolute;
   right: 400px;
   top: 20px;
-  @media screen and (max-width: 770px) {
+  @include breakpoint(medium) {
     display: none;
   }
 
@@ -43,10 +48,6 @@ body {
   }
 }
 
-.js-ease-out-right {
-  @include ease-out-right;
-}
-
 .chrysler-building {
   position: absolute;
   top: 0;
@@ -54,7 +55,7 @@ body {
   width: 190px;
   height: auto;
   z-index: 10;
-  @media screen and (max-width: 770px) {
+  @include breakpoint(medium) {
     display: none;
   }
 }
@@ -65,7 +66,7 @@ body {
   top: 16px;
   width: 215px;
   height: auto;
-  @media screen and (max-width: 770px) {
+  @include breakpoint(medium) {
     width: auto;
   }
 }
@@ -119,7 +120,11 @@ textarea {
   padding: 30px 0;
   article {
     color: $white;
-    width: 80%;
+    width: 75%;
+
+    @include breakpoint(medium) {
+      width: 100%;
+    }
   }
 }
 

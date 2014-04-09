@@ -10,29 +10,15 @@ $footer-copy: #7385a0;
 $header-font: 'Raleway', helvetica, sans-serif;
 $body-font: 'Quattrocento', georgia, serif;
 
-@mixin ease-out-right {
-  -webkit-transition: all 5.0s ease-in-out;
-  -webkit-transform: translateX(1000px);
+// Media Queries
+@mixin breakpoint($point) {
+  @if $point == large {
+    @media (max-width: 1000px) { @content; }
+  }
+  @else if $point == medium {
+    @media (max-width: 770px) { @content; }
+  }
+  @else if $point == small {
+    @media (max-width: 600px)  { @content; }
+  }
 }
-
-// @-webkit-keyframes slideRight {
-//   0% {
-//     -webkit-transform: translateX(-150%);
-//   }
-//   50%{
-//     -webkit-transform: translateX(8%);
-//   }
-//   65%{
-//     -webkit-transform: translateX(-4%);
-//   }
-//   80%{
-//     -webkit-transform: translateX(4%);
-//   }
-//   95%{
-//     -webkit-transform: translateX(-2%);
-//   }
-//   100% {
-//     -webkit-transform: translateX(0%);
-//   }
-
-// }
