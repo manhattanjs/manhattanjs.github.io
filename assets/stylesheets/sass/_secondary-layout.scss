@@ -1,0 +1,43 @@
+body.secondary-page {
+  background-color: $off-white;
+
+  a {
+    color: $medium-blue;
+  }
+
+  .main {
+    color: $medium-blue;
+    margin: 0 auto;
+  }
+
+  .top-bar {
+    background-color: $medium-blue;
+    text-align: center;
+    padding: .8em 0;
+  }
+
+  .wordmark-long {
+    height: 27px;
+    margin-top: 3px;
+    width: 224px;
+  }
+}
+
+.speaker-archive {
+
+  .speakers {
+    border-top: 1px dotted tint($medium-blue, 70%);
+    margin-bottom: 1em;
+    padding: 1em;
+    width: 100%;
+  }
+
+  .speaker {
+    overflow: hidden;
+  }
+
+  .speaker-name {
+    line-height: 1.2em;
+    margin-top: 0;
+  }
+}

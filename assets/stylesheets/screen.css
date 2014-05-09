@@ -403,7 +403,7 @@ body {
     display: none;
   }
 }
-/* line 29, sass/_layout.scss */
+/* line 30, sass/_layout.scss */
 .clouds img {
   width: auto;
   position: absolute;
@@ -411,13 +411,13 @@ body {
   right: 0;
   z-index: -1;
 }
-/* line 37, sass/_layout.scss */
+/* line 38, sass/_layout.scss */
 .clouds .cloud-1 {
   height: 120px;
   top: 0;
   left: 0;
 }
-/* line 43, sass/_layout.scss */
+/* line 44, sass/_layout.scss */
 .clouds .cloud-2 {
   height: 100px;
   margin-left: -100px;
@@ -425,23 +425,23 @@ body {
   left: 0;
 }
 
-/* line 51, sass/_layout.scss */
+/* line 52, sass/_layout.scss */
 .chrysler-building {
   position: absolute;
-  top: 0;
+  top: 20px;
   right: 40px;
   width: 190px;
   height: auto;
   z-index: 10;
 }
 @media (max-width: 770px) {
-  /* line 51, sass/_layout.scss */
+  /* line 52, sass/_layout.scss */
   .chrysler-building {
     display: none;
   }
 }
 
-/* line 63, sass/_layout.scss */
+/* line 65, sass/_layout.scss */
 .wordmark {
   display: inline-block;
   position: relative;
@@ -450,25 +450,25 @@ body {
   height: auto;
 }
 @media (max-width: 770px) {
-  /* line 63, sass/_layout.scss */
+  /* line 65, sass/_layout.scss */
   .wordmark {
     width: auto;
   }
 }
 
-/* line 74, sass/_layout.scss */
+/* line 77, sass/_layout.scss */
 ::-moz-selection {
   background: #c7e6d7;
   text-shadow: none;
 }
 
-/* line 79, sass/_layout.scss */
+/* line 82, sass/_layout.scss */
 ::selection {
   background: #c7e6d7;
   text-shadow: none;
 }
 
-/* line 84, sass/_layout.scss */
+/* line 87, sass/_layout.scss */
 hr {
   border: 0;
   border-top: 1px solid white;
@@ -478,24 +478,24 @@ hr {
   padding: 0;
 }
 
-/* line 93, sass/_layout.scss */
+/* line 96, sass/_layout.scss */
 img {
   vertical-align: middle;
 }
 
-/* line 97, sass/_layout.scss */
+/* line 100, sass/_layout.scss */
 fieldset {
   border: 0;
   margin: 0;
   padding: 0;
 }
 
-/* line 103, sass/_layout.scss */
+/* line 106, sass/_layout.scss */
 textarea {
   resize: vertical;
 }
 
-/* line 107, sass/_layout.scss */
+/* line 110, sass/_layout.scss */
 .chromeframe {
   background: #ccc;
   color: #000;
@@ -503,35 +503,35 @@ textarea {
   padding: 0.2em 0;
 }
 
-/* line 114, sass/_layout.scss */
+/* line 117, sass/_layout.scss */
 .wrapper {
   margin: 0 5%;
   width: 90%;
 }
 
-/* line 119, sass/_layout.scss */
+/* line 122, sass/_layout.scss */
 .main {
   padding: 30px 0;
-}
-/* line 121, sass/_layout.scss */
-.main article {
   color: white;
+}
+/* line 126, sass/_layout.scss */
+.main article {
   width: 75%;
 }
 @media (max-width: 770px) {
-  /* line 121, sass/_layout.scss */
+  /* line 126, sass/_layout.scss */
   .main article {
     width: 100%;
   }
 }
 
-/* line 131, sass/_layout.scss */
+/* line 135, sass/_layout.scss */
 .hidden {
   display: none !important;
   visibility: hidden;
 }
 
-/* line 136, sass/_layout.scss */
+/* line 140, sass/_layout.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -543,7 +543,7 @@ textarea {
   width: 1px;
 }
 
-/* line 148, sass/_layout.scss */
+/* line 152, sass/_layout.scss */
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
   clip: auto;
@@ -554,24 +554,24 @@ textarea {
   width: auto;
 }
 
-/* line 157, sass/_layout.scss */
+/* line 161, sass/_layout.scss */
 .invisible {
   visibility: hidden;
 }
 
-/* line 162, sass/_layout.scss */
+/* line 166, sass/_layout.scss */
 .clearfix:before,
 .clearfix:after {
   content: " ";
   display: table;
 }
 
-/* line 167, sass/_layout.scss */
+/* line 171, sass/_layout.scss */
 .clearfix:after {
   clear: both;
 }
 
-/* line 171, sass/_layout.scss */
+/* line 175, sass/_layout.scss */
 .clearfix {
   *zoom: 1;
 }
@@ -713,7 +713,7 @@ a.tickets-link:hover {
   margin-bottom: 0;
   padding: 20px 0;
 }
-/* line 7, sass/_about.scss */
+/* line 8, sass/_about.scss */
 .about hr {
   margin-bottom: 40px;
   opacity: .2;
@@ -730,7 +730,7 @@ a.tickets-link:hover {
   }
 }
 
-/* line 10, sass/_speak-sponsor.scss */
+/* line 11, sass/_speak-sponsor.scss */
 .email {
   color: #c7e6d7;
 }
@@ -747,15 +747,58 @@ a.tickets-link:hover {
   bottom: 0px;
   width: 100%;
 }
-/* line 13, sass/_footer.scss */
+/* line 14, sass/_footer.scss */
 .footer-container footer {
   color: #7385a0;
 }
-/* line 15, sass/_footer.scss */
+/* line 17, sass/_footer.scss */
 .footer-container footer a {
   color: #7385a0;
 }
-/* line 17, sass/_footer.scss */
+/* line 20, sass/_footer.scss */
 .footer-container footer a:hover {
   color: #e33e57;
+}
+
+/* line 1, sass/_secondary-layout.scss */
+body.secondary-page {
+  background-color: #fcfcfc;
+}
+/* line 4, sass/_secondary-layout.scss */
+body.secondary-page a {
+  color: #485367;
+}
+/* line 8, sass/_secondary-layout.scss */
+body.secondary-page .main {
+  color: #485367;
+  margin: 0 auto;
+}
+/* line 13, sass/_secondary-layout.scss */
+body.secondary-page .top-bar {
+  background-color: #485367;
+  text-align: center;
+  padding: .8em 0;
+}
+/* line 19, sass/_secondary-layout.scss */
+body.secondary-page .wordmark-long {
+  height: 27px;
+  margin-top: 3px;
+  width: 224px;
+}
+
+/* line 28, sass/_secondary-layout.scss */
+.speaker-archive .speakers {
+  border-top: 1px dotted #c8cbd1;
+  margin-bottom: 1em;
+  padding: 1em;
+  width: 100%;
+}
+/* line 35, sass/_secondary-layout.scss */
+.speaker-archive .speaker {
+  overflow: hidden;
+}
+/* line 39, sass/_secondary-layout.scss */
+.speaker-archive .speaker-name {
+  line-height: 1.2em;
+  margin-top: 0;
 }
