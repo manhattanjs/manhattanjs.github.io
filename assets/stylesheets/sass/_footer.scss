@@ -10,19 +10,16 @@
   left: 0px;
   bottom: 0px;
   width: 100%;
+
   footer {
     color: $footer-copy;
+
     a {
       color: $footer-copy;
+
       &:hover {
         color: $red;
       }
     }
   }
-}
-
-.footer-credits {
-}
-
-.pizza-disclaimer {
 }

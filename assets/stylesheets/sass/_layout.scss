@@ -22,6 +22,7 @@ body {
   position: absolute;
   right: 400px;
   top: 20px;
+
   @include breakpoint(medium) {
     display: none;
   }
@@ -50,11 +51,12 @@ body {
 
 .chrysler-building {
   position: absolute;
-  top: 0;
+  top: 20px;
   right: 40px;
   width: 190px;
   height: auto;
   z-index: 10;
+
   @include breakpoint(medium) {
     display: none;
   }
@@ -66,6 +68,7 @@ body {
   top: 16px;
   width: 215px;
   height: auto;
+
   @include breakpoint(medium) {
     width: auto;
   }
@@ -118,8 +121,9 @@ textarea {
 
 .main {
   padding: 30px 0;
+  color: $white;
+
   article {
-    color: $white;
     width: 75%;
 
     @include breakpoint(medium) {

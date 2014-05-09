@@ -2,6 +2,7 @@
 
 .sponsors-container {
   width: 75%;
+
   @include breakpoint(medium) {
     width: 100%;
   }
