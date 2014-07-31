@@ -22,3 +22,12 @@ $body-font: 'Quattrocento', georgia, serif;
     @media (max-width: 600px)  { @content; }
   }
 }
+
+// Extends
+%clear-chrysler {
+  width: 75%;
+
+  @include breakpoint(medium) {
+    width: 100%;
+  }
+}

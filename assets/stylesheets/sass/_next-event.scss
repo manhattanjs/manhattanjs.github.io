@@ -28,6 +28,7 @@
 }
 
 .next-event {
+  @extend %clear-chrysler;
   color: $white;
   margin: 3em 0;
 
@@ -70,13 +71,13 @@ a.tickets-link:hover {
 
 .sold-out-copy {
   color: $white;
-}
 
-.sold-out-copy a {
-  color: $light-blue;
+  a {
+    color: $light-blue;
 
-  &:hover {
-    color: $red;
+    &:hover {
+      color: $red;
+    }
   }
 }
 

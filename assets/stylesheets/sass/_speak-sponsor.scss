@@ -1,10 +1,7 @@
 @import "variables";
 
 .sponsors-container {
-  width: 75%;
-  @include breakpoint(medium) {
-    width: 100%;
-  }
+  @extend %clear-chrysler;
 }
 
 .email {
