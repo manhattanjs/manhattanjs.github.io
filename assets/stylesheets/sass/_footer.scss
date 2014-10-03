@@ -2,30 +2,20 @@
 
 .footer-container {
   background-color: $dark-blue;
+  bottom: 0px;
+  color: $footer-copy;
   font-size: .8em;
+  left: 0px;
   line-height: 1.5em;
   overflow: hidden;
-  padding: 15px 0;
   position: relative;
-  left: 0px;
-  bottom: 0px;
   width: 100%;
 
-  footer {
+  a {
     color: $footer-copy;
 
-    a {
-      color: $footer-copy;
-
-      &:hover {
-        color: $red;
-      }
+    &:hover {
+      color: $red;
     }
   }
-}
-
-.footer-credits {
-}
-
-.pizza-disclaimer {
 }
