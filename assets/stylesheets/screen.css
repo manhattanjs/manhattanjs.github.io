@@ -3,7 +3,7 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 /*! normalize.css v1.1.2 | MIT License | git.io/normalize */
-/* line 3, sass/_normalize.scss */
+/* line 14, sass/_normalize.scss */
 article,
 aside,
 details,
@@ -19,7 +19,7 @@ summary {
   display: block;
 }
 
-/* line 18, sass/_normalize.scss */
+/* line 20, sass/_normalize.scss */
 audio,
 canvas,
 video {
@@ -49,7 +49,7 @@ html {
   /* 2 */
 }
 
-/* line 41, sass/_normalize.scss */
+/* line 45, sass/_normalize.scss */
 html,
 button,
 input,
@@ -68,7 +68,7 @@ a:focus {
   outline: thin dotted;
 }
 
-/* line 57, sass/_normalize.scss */
+/* line 58, sass/_normalize.scss */
 a:active,
 a:hover {
   outline: 0;
@@ -115,7 +115,7 @@ abbr[title] {
   border-bottom: 1px dotted;
 }
 
-/* line 96, sass/_normalize.scss */
+/* line 97, sass/_normalize.scss */
 b,
 strong {
   font-weight: bold;
@@ -144,13 +144,13 @@ mark {
   color: #000;
 }
 
-/* line 120, sass/_normalize.scss */
+/* line 121, sass/_normalize.scss */
 p,
 pre {
   margin: 1em 0;
 }
 
-/* line 125, sass/_normalize.scss */
+/* line 128, sass/_normalize.scss */
 code,
 kbd,
 pre,
@@ -172,7 +172,7 @@ q {
   quotes: none;
 }
 
-/* line 144, sass/_normalize.scss */
+/* line 145, sass/_normalize.scss */
 q:before,
 q:after {
   content: '';
@@ -184,7 +184,7 @@ small {
   font-size: 80%;
 }
 
-/* line 154, sass/_normalize.scss */
+/* line 155, sass/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -203,7 +203,7 @@ sub {
   bottom: -0.25em;
 }
 
-/* line 170, sass/_normalize.scss */
+/* line 173, sass/_normalize.scss */
 dl,
 menu,
 ol,
@@ -216,14 +216,14 @@ dd {
   margin: 0 0 0 40px;
 }
 
-/* line 181, sass/_normalize.scss */
+/* line 183, sass/_normalize.scss */
 menu,
 ol,
 ul {
   padding: 0 0 0 40px;
 }
 
-/* line 187, sass/_normalize.scss */
+/* line 188, sass/_normalize.scss */
 nav ul,
 nav ol {
   list-style: none;
@@ -271,7 +271,7 @@ legend {
   /* 3 */
 }
 
-/* line 223, sass/_normalize.scss */
+/* line 226, sass/_normalize.scss */
 button,
 input,
 select,
@@ -286,19 +286,19 @@ textarea {
   /* 3 */
 }
 
-/* line 233, sass/_normalize.scss */
+/* line 234, sass/_normalize.scss */
 button,
 input {
   line-height: normal;
 }
 
-/* line 238, sass/_normalize.scss */
+/* line 239, sass/_normalize.scss */
 button,
 select {
   text-transform: none;
 }
 
-/* line 243, sass/_normalize.scss */
+/* line 246, sass/_normalize.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -311,13 +311,13 @@ input[type="submit"] {
   /* 4 */
 }
 
-/* line 252, sass/_normalize.scss */
+/* line 253, sass/_normalize.scss */
 button[disabled],
 html input[disabled] {
   cursor: default;
 }
 
-/* line 257, sass/_normalize.scss */
+/* line 258, sass/_normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -340,13 +340,13 @@ input[type="search"] {
   box-sizing: content-box;
 }
 
-/* line 272, sass/_normalize.scss */
+/* line 273, sass/_normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
-/* line 277, sass/_normalize.scss */
+/* line 278, sass/_normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -463,55 +463,56 @@ body {
 @media (max-width: 770px) {
   /* line 65, sass/_layout.scss */
   .wordmark {
-    width: auto;
+    margin-left: 10px;
+    width: 163px;
   }
 }
 
-/* line 77, sass/_layout.scss */
+/* line 78, sass/_layout.scss */
 .main-container {
   min-height: 940px;
 }
 
-/* line 81, sass/_layout.scss */
+/* line 82, sass/_layout.scss */
 ::-moz-selection {
   background: #c7e6d7;
   text-shadow: none;
 }
 
-/* line 86, sass/_layout.scss */
+/* line 87, sass/_layout.scss */
 ::selection {
   background: #c7e6d7;
   text-shadow: none;
 }
 
-/* line 91, sass/_layout.scss */
+/* line 92, sass/_layout.scss */
 hr {
   border: 0;
-  border-top: 1px solid #fff;
+  border-top: 1px solid white;
   display: block;
   height: 1px;
   margin: 1em 0;
   padding: 0;
 }
 
-/* line 100, sass/_layout.scss */
+/* line 101, sass/_layout.scss */
 img {
   vertical-align: middle;
 }
 
-/* line 104, sass/_layout.scss */
+/* line 105, sass/_layout.scss */
 fieldset {
   border: 0;
   margin: 0;
   padding: 0;
 }
 
-/* line 110, sass/_layout.scss */
+/* line 111, sass/_layout.scss */
 textarea {
   resize: vertical;
 }
 
-/* line 114, sass/_layout.scss */
+/* line 115, sass/_layout.scss */
 .chromeframe {
   background: #ccc;
   color: #000;
@@ -519,35 +520,35 @@ textarea {
   padding: 0.2em 0;
 }
 
-/* line 121, sass/_layout.scss */
+/* line 122, sass/_layout.scss */
 .wrapper {
   margin: 0 5%;
   width: 90%;
 }
 
-/* line 126, sass/_layout.scss */
+/* line 127, sass/_layout.scss */
 .wrapper {
   padding: 30px 0;
 }
-/* line 129, sass/_layout.scss */
+/* line 130, sass/_layout.scss */
 .wrapper section {
-  color: #fff;
+  color: white;
   width: 75%;
 }
 @media (max-width: 770px) {
-  /* line 129, sass/_layout.scss */
+  /* line 130, sass/_layout.scss */
   .wrapper section {
     width: 100%;
   }
 }
 
-/* line 139, sass/_layout.scss */
+/* line 140, sass/_layout.scss */
 .hidden {
   display: none !important;
   visibility: hidden;
 }
 
-/* line 144, sass/_layout.scss */
+/* line 145, sass/_layout.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -559,7 +560,7 @@ textarea {
   width: 1px;
 }
 
-/* line 155, sass/_layout.scss */
+/* line 157, sass/_layout.scss */
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
   clip: auto;
@@ -570,24 +571,24 @@ textarea {
   width: auto;
 }
 
-/* line 165, sass/_layout.scss */
+/* line 166, sass/_layout.scss */
 .invisible {
   visibility: hidden;
 }
 
-/* line 169, sass/_layout.scss */
+/* line 171, sass/_layout.scss */
 .clearfix:before,
 .clearfix:after {
   content: " ";
   display: table;
 }
 
-/* line 175, sass/_layout.scss */
+/* line 176, sass/_layout.scss */
 .clearfix:after {
   clear: both;
 }
 
-/* line 179, sass/_layout.scss */
+/* line 180, sass/_layout.scss */
 .clearfix {
   *zoom: 1;
 }
@@ -612,21 +613,23 @@ html {
 
 /* line 9, sass/_typography.scss */
 a {
-  color: #fff;
+  color: white;
   text-decoration: none;
+  fill: white;
 }
-/* line 12, sass/_typography.scss */
+/* line 13, sass/_typography.scss */
 a:hover {
   color: #e33e57;
+  fill: #e33e57;
 }
 
-/* line 17, sass/_typography.scss */
+/* line 19, sass/_typography.scss */
 h1, h2, h3 {
   font-family: "Raleway", helvetica, sans-serif;
   line-height: 1.3em;
 }
 
-/* line 22, sass/_typography.scss */
+/* line 24, sass/_typography.scss */
 p {
   line-height: 1.5em;
 }
@@ -675,7 +678,7 @@ p {
 
 /* line 30, sass/_next-event.scss */
 .next-event {
-  color: #fff;
+  color: white;
   margin: 3em 0;
 }
 /* line 35, sass/_next-event.scss */
@@ -692,13 +695,34 @@ p {
 }
 
 /* line 46, sass/_next-event.scss */
+.location {
+  margin-right: 10px;
+}
+
+/* line 50, sass/_next-event.scss */
+.location-link {
+  text-transform: uppercase;
+  font-size: .42em;
+  letter-spacing: .01em;
+}
+
+/* line 56, sass/_next-event.scss */
+.location-icon {
+  width: 10px;
+  height: auto;
+  position: relative;
+  top: 3px;
+  left: 2px;
+}
+
+/* line 64, sass/_next-event.scss */
 .charity-copy {
-  color: #fff;
+  color: white;
   font-size: 12px;
   margin: 0;
 }
 
-/* line 52, sass/_next-event.scss */
+/* line 71, sass/_next-event.scss */
 .time,
 .tickets-link {
   color: #c7e6d7;
@@ -707,42 +731,42 @@ p {
   font-weight: bold;
 }
 
-/* line 60, sass/_next-event.scss */
+/* line 78, sass/_next-event.scss */
 .tickets-link-container {
   margin: 3em 0;
 }
 @media (max-width: 770px) {
-  /* line 60, sass/_next-event.scss */
+  /* line 78, sass/_next-event.scss */
   .tickets-link-container {
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     padding-bottom: 3em;
   }
 }
 
-/* line 69, sass/_next-event.scss */
+/* line 87, sass/_next-event.scss */
 a.tickets-link:hover {
   color: #e33e57;
 }
 
-/* line 73, sass/_next-event.scss */
+/* line 91, sass/_next-event.scss */
 .sold-out-copy {
-  color: #fff;
+  color: white;
 }
-/* line 76, sass/_next-event.scss */
+/* line 94, sass/_next-event.scss */
 .sold-out-copy a {
   color: #c7e6d7;
 }
-/* line 79, sass/_next-event.scss */
+/* line 97, sass/_next-event.scss */
 .sold-out-copy a:hover {
   color: #e33e57;
 }
 
-/* line 85, sass/_next-event.scss */
+/* line 103, sass/_next-event.scss */
 .speaker-name {
   margin-bottom: 0;
 }
 
-/* line 89, sass/_next-event.scss */
+/* line 107, sass/_next-event.scss */
 .time {
   margin-bottom: -10px;
 }
@@ -760,7 +784,7 @@ a.tickets-link:hover {
 
 /* line 3, sass/_about.scss */
 .about {
-  color: #fff;
+  color: white;
   margin-bottom: 0;
   padding: 20px 0;
 }

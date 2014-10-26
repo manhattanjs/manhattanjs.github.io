@@ -43,6 +43,24 @@
   }
 }
 
+.location {
+  margin-right: 10px;
+}
+
+.location-link {
+  text-transform: uppercase;
+  font-size: .42em;
+  letter-spacing: .01em;
+}
+
+.location-icon {
+  width: 10px;
+  height: auto;
+  position: relative;
+  top: 3px;
+  left: 2px;
+}
+
 .charity-copy {
   color: $white;
   font-size: 12px;

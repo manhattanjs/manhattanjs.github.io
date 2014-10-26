@@ -70,7 +70,8 @@ body {
   height: auto;
 
   @include breakpoint(medium) {
-    width: auto;
+    margin-left: 10px;
+    width: 163px;
   }
 }
 
