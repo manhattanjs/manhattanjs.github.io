@@ -3,7 +3,7 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 /*! normalize.css v1.1.2 | MIT License | git.io/normalize */
-/* line 14, sass/_normalize.scss */
+/* line 3, sass/_normalize.scss */
 article,
 aside,
 details,
@@ -19,7 +19,7 @@ summary {
   display: block;
 }
 
-/* line 20, sass/_normalize.scss */
+/* line 18, sass/_normalize.scss */
 audio,
 canvas,
 video {
@@ -49,7 +49,7 @@ html {
   /* 2 */
 }
 
-/* line 45, sass/_normalize.scss */
+/* line 41, sass/_normalize.scss */
 html,
 button,
 input,
@@ -68,7 +68,7 @@ a:focus {
   outline: thin dotted;
 }
 
-/* line 58, sass/_normalize.scss */
+/* line 57, sass/_normalize.scss */
 a:active,
 a:hover {
   outline: 0;
@@ -115,7 +115,7 @@ abbr[title] {
   border-bottom: 1px dotted;
 }
 
-/* line 97, sass/_normalize.scss */
+/* line 96, sass/_normalize.scss */
 b,
 strong {
   font-weight: bold;
@@ -144,13 +144,13 @@ mark {
   color: #000;
 }
 
-/* line 121, sass/_normalize.scss */
+/* line 120, sass/_normalize.scss */
 p,
 pre {
   margin: 1em 0;
 }
 
-/* line 128, sass/_normalize.scss */
+/* line 125, sass/_normalize.scss */
 code,
 kbd,
 pre,
@@ -172,7 +172,7 @@ q {
   quotes: none;
 }
 
-/* line 145, sass/_normalize.scss */
+/* line 144, sass/_normalize.scss */
 q:before,
 q:after {
   content: '';
@@ -184,7 +184,7 @@ small {
   font-size: 80%;
 }
 
-/* line 155, sass/_normalize.scss */
+/* line 154, sass/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -203,7 +203,7 @@ sub {
   bottom: -0.25em;
 }
 
-/* line 173, sass/_normalize.scss */
+/* line 170, sass/_normalize.scss */
 dl,
 menu,
 ol,
@@ -216,14 +216,14 @@ dd {
   margin: 0 0 0 40px;
 }
 
-/* line 183, sass/_normalize.scss */
+/* line 181, sass/_normalize.scss */
 menu,
 ol,
 ul {
   padding: 0 0 0 40px;
 }
 
-/* line 188, sass/_normalize.scss */
+/* line 187, sass/_normalize.scss */
 nav ul,
 nav ol {
   list-style: none;
@@ -271,7 +271,7 @@ legend {
   /* 3 */
 }
 
-/* line 226, sass/_normalize.scss */
+/* line 223, sass/_normalize.scss */
 button,
 input,
 select,
@@ -286,19 +286,19 @@ textarea {
   /* 3 */
 }
 
-/* line 234, sass/_normalize.scss */
+/* line 233, sass/_normalize.scss */
 button,
 input {
   line-height: normal;
 }
 
-/* line 239, sass/_normalize.scss */
+/* line 238, sass/_normalize.scss */
 button,
 select {
   text-transform: none;
 }
 
-/* line 246, sass/_normalize.scss */
+/* line 243, sass/_normalize.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -311,13 +311,13 @@ input[type="submit"] {
   /* 4 */
 }
 
-/* line 253, sass/_normalize.scss */
+/* line 252, sass/_normalize.scss */
 button[disabled],
 html input[disabled] {
   cursor: default;
 }
 
-/* line 258, sass/_normalize.scss */
+/* line 257, sass/_normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -340,13 +340,13 @@ input[type="search"] {
   box-sizing: content-box;
 }
 
-/* line 273, sass/_normalize.scss */
+/* line 272, sass/_normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
-/* line 278, sass/_normalize.scss */
+/* line 277, sass/_normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -488,7 +488,7 @@ body {
 /* line 92, sass/_layout.scss */
 hr {
   border: 0;
-  border-top: 1px solid white;
+  border-top: 1px solid #fff;
   display: block;
   height: 1px;
   margin: 1em 0;
@@ -532,7 +532,7 @@ textarea {
 }
 /* line 130, sass/_layout.scss */
 .wrapper section {
-  color: white;
+  color: #fff;
   width: 75%;
 }
 @media (max-width: 770px) {
@@ -560,7 +560,7 @@ textarea {
   width: 1px;
 }
 
-/* line 157, sass/_layout.scss */
+/* line 156, sass/_layout.scss */
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
   clip: auto;
@@ -576,7 +576,7 @@ textarea {
   visibility: hidden;
 }
 
-/* line 171, sass/_layout.scss */
+/* line 170, sass/_layout.scss */
 .clearfix:before,
 .clearfix:after {
   content: " ";
@@ -613,7 +613,7 @@ html {
 
 /* line 9, sass/_typography.scss */
 a {
-  color: white;
+  color: #fff;
   text-decoration: none;
   fill: white;
 }
@@ -678,7 +678,7 @@ p {
 
 /* line 30, sass/_next-event.scss */
 .next-event {
-  color: white;
+  color: #fff;
   margin: 3em 0;
 }
 /* line 35, sass/_next-event.scss */
@@ -717,12 +717,12 @@ p {
 
 /* line 64, sass/_next-event.scss */
 .charity-copy {
-  color: white;
+  color: #fff;
   font-size: 12px;
   margin: 0;
 }
 
-/* line 71, sass/_next-event.scss */
+/* line 70, sass/_next-event.scss */
 .time,
 .tickets-link {
   color: #c7e6d7;
@@ -750,7 +750,7 @@ a.tickets-link:hover {
 
 /* line 91, sass/_next-event.scss */
 .sold-out-copy {
-  color: white;
+  color: #fff;
 }
 /* line 94, sass/_next-event.scss */
 .sold-out-copy a {
@@ -763,10 +763,11 @@ a.tickets-link:hover {
 
 /* line 103, sass/_next-event.scss */
 .speaker-name {
+  margin-top: 0;
   margin-bottom: 0;
 }
 
-/* line 107, sass/_next-event.scss */
+/* line 108, sass/_next-event.scss */
 .time {
   margin-bottom: -10px;
 }
@@ -784,7 +785,7 @@ a.tickets-link:hover {
 
 /* line 3, sass/_about.scss */
 .about {
-  color: white;
+  color: #fff;
   margin-bottom: 0;
   padding: 20px 0;
 }
