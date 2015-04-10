@@ -1,0 +1,11 @@
+# Site settings
+title: ManhattanJS
+email: team@manhattanjs.com
+description: > # this means to ignore newlines until "baseurl:"
+  We aim to bring the greatest programming minds to Manhattan once a month to chat, teach, and learn from.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://manhattanjs.com" # the base hostname & protocol for your site
+twitter_username: manhattan_js
+
+# Build settings
+markdown: kramdown
