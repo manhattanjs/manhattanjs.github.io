@@ -16,14 +16,29 @@
   vertical-align: top;
   width: 29%;
 
-  a {
-    font-family: $header-font;
-    font-size: 1.1rem;
-  }
-
   @include breakpoint(medium) {
     display: block;
     width: 100%;
+  }
+
+  .speaker-sub-info {
+    font-family: $header-font;
+    font-size: 1.1rem;
+    margin: 0;
+  }
+
+  .speaker-name-twitter {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .speaker-talk-link {
+    text-decoration: underline;
+
+    &:hover {
+      color: $red;
+      text-decoration: none;
+    }
   }
 }
 
