@@ -1,0 +1,88 @@
+.slideshow {
+  height: 500px;
+  width: 100%;
+
+  @include breakpoint(medium) {
+    height: 300px;
+  }
+}
+
+.slide {
+  -webkit-animation: fade 38s 0s infinite;
+  animation: fade 38s 0s infinite;
+  background-position: center center;
+  background-size: cover;
+  height: 500px;
+  position: absolute;
+  width: 100%;
+
+  @include breakpoint(medium) {
+    height: 300px;
+  }
+
+  &:nth-child(1) {
+    background-image: url("../assets/images/audience.jpg");
+    z-index: 60;
+  }
+
+  &:nth-child(2) {
+    -webkit-animation-delay: 6s;
+    animation-delay: 6s;
+    background-image: url("../assets/images/tiff-fehr.jpg");
+    z-index: 50;
+  }
+
+  &:nth-child(3) {
+    -webkit-animation-delay: 12s;
+    animation-delay: 12s;
+    background-image: url("../assets/images/handshake.jpg");
+    z-index: 40;
+  }
+
+  &:nth-child(4) {
+    -webkit-animation-delay: 18s;
+    animation-delay: 18s;
+    background-image: url("../assets/images/intro.jpg");
+    z-index: 30;
+  }
+
+  &:nth-child(5) {
+    -webkit-animation-delay: 24s;
+    animation-delay: 24s;
+    background-image: url("../assets/images/tom-dale-adam-sontag.jpg");
+    z-index: 20;
+  }
+
+  &:nth-child(6) {
+    -webkit-animation-delay: 30s;
+    animation-delay: 30s;
+    background-image: url("../assets/images/aidan-feldman-dance-workshop.jpg");
+    z-index: 10;
+  }
+}
+
+@-webkit-keyframes fade {
+  0%,
+  15%,
+  100% {
+    opacity: 1;
+  }
+
+  25%,
+  90% {
+    opacity: 0;
+  }
+}
+
+@keyframes fade {
+  0%,
+  15%,
+  100% {
+    opacity: 1;
+  }
+
+  25%,
+  90% {
+    opacity: 0;
+  }
+}

@@ -1,0 +1,41 @@
+.sponsorship-container {
+  color: $dark-blue;
+  margin: 3em auto;
+  max-width: 700px;
+  padding: 0 1em;
+
+  h1 {
+    font-family: $header-font;
+    line-height: 1.2em;
+    margin-bottom: 5px;
+  }
+
+  h4 {
+    margin-top: 2em;
+    margin-bottom: 0;
+  }
+
+  p a {
+    color: $red;
+  }
+}
+
+.sponsorship-heading {
+  margin-top: 2em;
+}
+
+.sponsorship-pricing {
+  padding-left: 0px;
+}
+
+.sponsorship-pricing-item {
+  display: inline-block;
+  margin-right: 2.5em;
+  text-align: center;
+}
+
+.sponsorship-price {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0.5em 0;
+}
