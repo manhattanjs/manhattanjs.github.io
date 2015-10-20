@@ -13,9 +13,11 @@
 
   a {
     color: $footer-copy;
+    text-decoration: underline;
 
     &:hover {
       color: $red;
+      text-decoration: none;
     }
   }
 }

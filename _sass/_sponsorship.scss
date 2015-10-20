@@ -17,6 +17,10 @@
 
   p a {
     color: $red;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }
 

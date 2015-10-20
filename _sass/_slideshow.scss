@@ -1,9 +1,23 @@
 .slideshow {
   height: 500px;
+  position: relative;
   width: 100%;
 
   @include breakpoint(medium) {
     height: 300px;
+  }
+}
+
+.slideshow-credit {
+  bottom: 10px;
+  color: $red;
+  font-size: 0.8rem;
+  position: absolute;
+  right: 20px;
+  z-index: 100;
+
+  &:hover {
+    text-decoration: underline;
   }
 }
 
