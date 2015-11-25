@@ -30,16 +30,31 @@
 
 .sponsorship-pricing {
   padding-left: 0px;
+  margin: 0 auto;
+  margin-bottom: 1.25em;
+  width: 700px;
+  text-align: center;
 }
 
 .sponsorship-pricing-item {
   display: inline-block;
-  margin-right: 2.5em;
+  margin: 0 0.75em;
   text-align: center;
+  background: $light-blue;
+  padding: 20px;
+  border-radius: 3px;
+  width: 145px;
+
+  @include breakpoint(small) {
+    display: block;
+    margin: 1em 0.75em;
+    width: 300px;
+  }
 }
 
 .sponsorship-price {
-  font-size: 1.5em;
+  font-size: 2.25em;
   font-weight: bold;
-  margin: 0.5em 0;
+  margin: 0.25em 0;
+  color: $red;
 }
