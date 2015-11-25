@@ -1,0 +1,109 @@
+.slideshow {
+  height: 500px;
+  position: relative;
+  width: 100%;
+
+  @include breakpoint(medium) {
+    height: 300px;
+  }
+}
+
+.slideshow-credit {
+  bottom: 10px;
+  color: $red;
+  font-size: 0.8rem;
+  position: absolute;
+  right: 20px;
+  z-index: 100;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.slide {
+  -webkit-animation: fade 32s 0s infinite;
+  animation: fade 32s 0s infinite;
+  background-position: center center;
+  background-size: cover;
+  height: 500px;
+  position: absolute;
+  width: 100%;
+
+  @include breakpoint(medium) {
+    height: 300px;
+  }
+
+  &:nth-child(1) {
+    background-image: url("../assets/images/audience.jpg");
+    z-index: 80;
+  }
+
+  &:nth-child(2) {
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s;
+    background-image: url("../assets/images/tiff-fehr.jpg");
+    z-index: 70;
+  }
+
+  &:nth-child(3) {
+    -webkit-animation-delay: 8s;
+    animation-delay: 8s;
+    background-image: url("../assets/images/handshake.jpg");
+    z-index: 60;
+  }
+
+  &:nth-child(4) {
+    -webkit-animation-delay: 12s;
+    animation-delay: 12s;
+    background-image: url("../assets/images/winning.jpg");
+    z-index: 50;
+  }
+
+  &:nth-child(5) {
+    -webkit-animation-delay: 16s;
+    animation-delay: 16s;
+    background-image: url("../assets/images/tom-dale-adam-sontag.jpg");
+    z-index: 40;
+  }
+
+  &:nth-child(6) {
+    -webkit-animation-delay: 20s;
+    animation-delay: 20s;
+    background-image: url("../assets/images/aidan-feldman-dance-workshop.jpg");
+    z-index: 30;
+  }
+
+  &:nth-child(7) {
+    -webkit-animation-delay: 24s;
+    animation-delay: 24s;
+    background-image: url("../assets/images/intro-2.jpg");
+    z-index: 20;
+  }
+}
+
+@-webkit-keyframes fade {
+  0%,
+  15%,
+  100% {
+    opacity: 1;
+  }
+
+  25%,
+  90% {
+    opacity: 0;
+  }
+}
+
+@keyframes fade {
+  0%,
+  15%,
+  100% {
+    opacity: 1;
+  }
+
+  25%,
+  90% {
+    opacity: 0;
+  }
+}

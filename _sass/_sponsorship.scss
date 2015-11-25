@@ -1,0 +1,60 @@
+.sponsorship-container {
+  color: $dark-blue;
+  margin: 3em auto;
+  max-width: 700px;
+  padding: 0 1em;
+
+  h1 {
+    font-family: $header-font;
+    line-height: 1.2em;
+    margin-bottom: 5px;
+  }
+
+  h4 {
+    margin-top: 2em;
+    margin-bottom: 0;
+  }
+
+  p a {
+    color: $red;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.sponsorship-heading {
+  margin-top: 2em;
+}
+
+.sponsorship-pricing {
+  padding-left: 0px;
+  margin: 0 auto;
+  margin-bottom: 1.25em;
+  width: 700px;
+  text-align: center;
+}
+
+.sponsorship-pricing-item {
+  display: inline-block;
+  margin: 0 0.75em;
+  text-align: center;
+  background: $light-blue;
+  padding: 20px;
+  border-radius: 3px;
+  width: 145px;
+
+  @include breakpoint(small) {
+    display: block;
+    margin: 1em 0.75em;
+    width: 300px;
+  }
+}
+
+.sponsorship-price {
+  font-size: 2.25em;
+  font-weight: bold;
+  margin: 0.25em 0;
+  color: $red;
+}

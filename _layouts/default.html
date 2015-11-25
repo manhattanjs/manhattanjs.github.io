@@ -3,17 +3,11 @@
 
   {% include head.html %}
 
-  <body>
-
-    {% include chrysler-clouds.html %}
-
-    <main class="main-container" id="js-main-container">
-      <div class="wrapper clearfix">
-        {{ content }}
-      </div>
+  <body class="default">
+    <main>
+      {{ content }}
     </main>
 
-    {% include footer.html %}
     {% include javascript.html %}
 
   </body>

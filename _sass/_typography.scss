@@ -10,6 +10,7 @@ a {
   color: $white;
   text-decoration: none;
   fill: white;
+
   &:hover {
     color: $red;
     fill: $red;
@@ -23,4 +24,9 @@ h1, h2, h3 {
 
 p {
   line-height: 1.5em;
+  margin: 0 0 1em 0;
+
+  a {
+    color: $light-blue;
+  }
 }
