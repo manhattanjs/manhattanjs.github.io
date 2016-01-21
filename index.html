@@ -4,20 +4,21 @@ layout: home
 <img src="assets/images/manhattan-js-logo.svg" height="160" width="65" class="small-logo">
 <img src="assets/images/manhattan-js-wordmark.svg" class="wordmark">
 
+<section class="speak-container">
+  <div class="about">
+    <p>We're a combination of Ruby, Javascript, and CSS [yes CSS] developers who aim to bring the greatest programming minds to Manhattan once a month to chat, teach, and learn.</p>
+  </div>
+</section>
+
 <section class="next-event">
   <h1 class="next-event-header">Our Next Event:<br>  Wednesday, February 10th at 7pm<br>
     at {% include location-digital-ocean.html %}
   </h1>
-  {% include tickets-soon.html %}
+  <p><a href="/sponsorship">Interested in being a sponsor?</a></p>
+
 </section>
 
 {% include speakers/speaker-list-2016-02.html %}
 
-<section class="speak-container">
-  <div class="about">
-    <hr>
-    <h2>At Manhattan JS...</h2>
-    <p>We're a combination of Ruby, Javascript and CSS [yes CSS] developers and we aim to bring the greatest programming minds to Manhattan once a month to chat, teach and learn from.</p>
-    <p>Want to speak at one of our events? Email us at: team [at] manhattanjs [dot] com</p>
-    <p><a href="/sponsorship">Interested in being a sponsor?</a></p>
-  </div>
+{% include tickets-soon.html %}
+
