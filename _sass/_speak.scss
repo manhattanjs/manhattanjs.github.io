@@ -1,5 +1,33 @@
-@import "variables";
-
 .speak-container {
-  @extend %clear-chrysler;
+  display: inline-block;
+  font-size: large;
+  max-width: 410px;
+  padding: 0 2rem;
+  position: relative;
+  top: 5.8rem;
+  width: 50%;
+
+  @include breakpoint(larger) {
+    display: block;
+    font-size: large;
+    max-width: 410px;
+    padding: 2rem 0;
+    top: 0;
+    width: 60%;
+  }
+
+  @include breakpoint(medium) {
+    display: inline-block;
+    max-width: unset;
+    padding: 0 1rem;
+    top: 4.7rem;
+    width: 45%;
+  }
+
+  @include breakpoint(small) {
+    display: block;
+    padding: 2rem 0;
+    top: 0;
+    width: 100%;
+  }
 }

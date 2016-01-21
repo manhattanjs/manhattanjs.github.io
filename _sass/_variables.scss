@@ -12,7 +12,9 @@ $body-font: 'Quattrocento', georgia, serif;
 
 // Media Queries
 @mixin breakpoint($point) {
-  @if $point == large {
+  @if $point == larger {
+    @media (max-width: 1200px) { @content; }
+  } @else if $point == large {
     @media (max-width: 1000px) { @content; }
   }
   @else if $point == medium {
