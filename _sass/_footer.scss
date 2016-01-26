@@ -1,23 +1,25 @@
 @import "variables";
 
 .footer-container {
-  background-color: $dark-blue;
-  bottom: 0px;
-  color: $footer-copy;
-  font-size: .8em;
-  left: 0px;
+  padding: 70px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1em;
+  background-color: $dark-gray;
+  color: $white;
   line-height: 1.5em;
-  overflow: hidden;
-  position: relative;
   width: 100%;
 
   a {
-    color: $footer-copy;
-    text-decoration: underline;
+    color: $light-blue;
 
     &:hover {
       color: $red;
       text-decoration: none;
     }
+  }
+
+  .pizza-disclaimer {
+    text-transform: none;
   }
 }

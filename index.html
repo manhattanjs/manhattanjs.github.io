@@ -1,23 +1,71 @@
 ---
 layout: home
 ---
-<img src="assets/images/manhattan-js-logo.svg" height="160" width="65" class="small-logo">
-<img src="assets/images/manhattan-js-wordmark.svg" class="wordmark">
+<!-- WINTER SNOW -->
+  <div class="snowflakes" aria-hidden="true">
+    <div class="snowflake">❄</div>
+    <div class="snowflake">❄</div>
+    <div class="snowflake">❄</div>
+    <div class="snowflake">❄</div>
+    <div class="snowflake">❄</div>
+    <div class="snowflake">❄</div>
+    <div class="snowflake">❄</div>
+    <div class="snowflake">❄</div>
+    <div class="snowflake">❄</div>
+  </div>
+<!-- WINTER SNOW END -->
 
-<section class="next-event">
-  <h1 class="next-event-header">Our Next Event:<br>  Wednesday, February 10th at 7pm<br>
-    at {% include location-digital-ocean.html %}
-  </h1>
-  {% include tickets-soon.html %}
-</section>
+<div class="flex-container event-background">
+  <div class="card">
+    <div class="wrapper">
+      <div class="top">
+        <header>
+          <h1>Next<br> Event</h1>
+          <p class="event-date"><b>10</b><br>Feb</p>
+        </header>
+        <section class="ticket-footer">
+          <p>Hosted At:</p>
+          <p>{% include location-digital-ocean.html %}</p>
+        </section>
+        <div class="counter" id="clockdiv">
+          <p>Tickets available in:</p>
+          <ul id="countdown">
+            <li>
+              <span class="days"></span>
+              <p>days</p>
+            </li>
+            <li>
+              <span class="hours"></span>
+              <p>Hours</p>
+            </li>
+            <li>
+              <span class="minutes"></span>
+              <p>Minutes</p>
+            </li>
+            <li>
+              <span class="seconds"></span>
+              <p>Seconds</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      {% include tickets-soon.html %}
+    </div>
+  </div>
+</div>
+
+  
+<div class="about">
+  {% include birthday-announcement.html %}
+
+  <h1>About ManhattanJS</h1>
+  <p>ManhattanJS is an NYC meetup celebrating everything about JavaScript (and a lot of things that aren't JavaScript, too). We're part of the BoroJS family of meetups in NYC (<a href="http://www.brooklynjs.com" target="_blank" class="borojs">BrooklynJS</a>, <a href="http://www.meetup.com/QueensJS/" target="_blank" class="borojs">QueensJS</a>, <a href="http://jerseyscript.github.io/" target="_blank" class="borojs">JerseyScript</a> &amp; <a href="http://nodebots.nyc/" target="_blank" class="borojs">NodeBots NYC</a>). We come together on the second Wednesday of every month to learn and connect with other members of the NYC development community.</p>
+
+  <p>The event starts at 7pm and features both technical &amp; passion talks, with various arts &amp; entertainment during intermissions, including an in-house DJ &amp; Battledecks. The price of your ticket helps cover food, dessert, beer, wine &amp; soda*. All proceeds are donated to <a href="https://www.scripted.org/" target="_blank" class="borojs">ScriptEd</a>.</p>
+  
+  <a href="/sponsorship" class="sponsorship flex-container">Interested in being a sponsor?</a>
+</div>
 
 {% include speakers/speaker-list-2016-02.html %}
 
-<section class="speak-container">
-  <div class="about">
-    <hr>
-    <h2>At Manhattan JS...</h2>
-    <p>We're a combination of Ruby, Javascript and CSS [yes CSS] developers and we aim to bring the greatest programming minds to Manhattan once a month to chat, teach and learn from.</p>
-    <p>Want to speak at one of our events? Email us at: team [at] manhattanjs [dot] com</p>
-    <p><a href="/sponsorship">Interested in being a sponsor?</a></p>
-  </div>
+
