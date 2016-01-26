@@ -1,56 +1,54 @@
 @import "variables";
 
-.speakers {
-  margin-top: 20px;
+.sponsor-link {
+  color: $dark-blue;
 
-  @include breakpoint(small) {
-    .speakers {
-      margin: 40px 0;
-    }
+  &:hover {
+    color: $hover-red;
   }
 }
 
-.speaker {
-  display: inline-block;
-  margin-bottom: 1%;
-  vertical-align: top;
-  width: 100%;
+.speaker-info, 
+.event-info-headline {
+  text-transform: uppercase;
+  font-size: 1.3em;
+  font-weight: 700;
+  margin-bottom: 5px;
 
-  @include breakpoint(medium) {
-    display: block;
-    width: 100%;
+  span { 
+    font-weight: 700; 
+  }
+}
+
+.event-info-headline {
+  color: $dark-gray;
+}
+
+.speaker-info {
+  color: $red;
+  p {
+    margin-bottom: 5px;
+    font-weight: 700;
   }
 
-  .speaker-sub-info {
-    font-family: $header-font;
-    font-size: 1rem;
-    margin: 0;
-    margin-top: -0.25em;
+  &:hover {
+    color: $light-gray;
   }
+}
 
-  .speaker-talk-title {
-    font-size: 1.5em;
-    font-family: monospace;
-    margin-top: 0.35em;
-  }
+.speaker-sub-info {
+  color: $light-gray;
+  font-size: 1.2em;
+}
 
-  .speaker-name-twitter {
-    display: inline-block;
-    margin-bottom: 10px;
-  }
-
-  .speaker-talk-link {
-    text-decoration: underline;
-
-    &:hover {
-      color: $red;
-      text-decoration: none;
-    }
-  }
+.speaker-talk-title {
+  color: $dark-gray;
+  font-size: 1em;
+  text-transform: uppercase;
+  margin-top: 15px;
 }
 
 .next-event {
-  @extend %clear-chrysler;
   color: $white;
   margin: 3em 0;
 
@@ -67,12 +65,14 @@
 
 .location {
   margin-right: 10px;
+  color: #8d9296;
 }
 
 .location-link {
   text-transform: uppercase;
   font-size: .42em;
   letter-spacing: .01em;
+  color: #8d9296;
 }
 
 .location-icon {
@@ -81,6 +81,7 @@
   position: relative;
   top: 3px;
   left: 2px;
+  fill: #8d9296;
 }
 
 .charity-copy {
