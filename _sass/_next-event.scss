@@ -1,10 +1,10 @@
 @import "variables";
 
 .sponsor-link {
-  color: $dark-blue;
+  color: $red;
 
   &:hover {
-    color: $hover-red;
+    color: $dark-blue;
   }
 }
 
@@ -43,8 +43,7 @@
 
 .speaker-talk-title {
   color: $dark-gray;
-  font-size: 1em;
-  text-transform: uppercase;
+  font-size: 1.2em;
   margin-top: 15px;
 }
 
