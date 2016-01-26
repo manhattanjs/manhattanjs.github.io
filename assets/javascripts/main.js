@@ -42,6 +42,6 @@ $(document).ready(function() {
 	  var timeinterval = setInterval(updateClock, 1000);
 	}
 
-	var deadline = 'January 28 2016 23:59:59 GMT+02:00';
+	var deadline = 'January 27 2016 11:59:59 GMT+02:00';
 	initializeClock('clockdiv', deadline);
 });
