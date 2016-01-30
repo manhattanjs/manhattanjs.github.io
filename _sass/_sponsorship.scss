@@ -1,8 +1,9 @@
 .sponsorship-container {
   color: $dark-blue;
+  font-size: 1.5rem;
   margin: 3em auto;
   max-width: 700px;
-  padding: 0 1em;
+  padding: 0 1em 2em;
 
   h1 {
     font-family: $header-font;
@@ -12,7 +13,7 @@
 
   h4 {
     margin-top: 2em;
-    margin-bottom: 0;
+    margin-bottom: 0.5em;
   }
 
   p a {
@@ -25,7 +26,7 @@
 }
 
 .sponsorship-heading {
-  margin-top: 2em;
+  margin: 2em 0 1em;
 }
 
 .sponsorship-pricing {
@@ -41,7 +42,7 @@
   margin: 0 0.75em;
   text-align: center;
   background: $light-blue;
-  padding: 20px;
+  padding: 20px 0px;
   border-radius: 3px;
   width: 145px;
 
@@ -55,6 +56,6 @@
 .sponsorship-price {
   font-size: 2.25em;
   font-weight: bold;
-  margin: 0.25em 0;
+  margin: 0.25em auto;
   color: $red;
 }
