@@ -112,6 +112,8 @@ a.tickets-link:hover {
 
 .sold-out-copy {
   color: $white;
+  font-size: 1em;
+  text-transform: none;
 
   a {
     color: $light-blue;
