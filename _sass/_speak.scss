@@ -24,7 +24,7 @@
     left: 18px;
     height: 100%;
     width: 4px;
-    background: #433f40;
+    background: rgba(255, 255, 255, 0.79);
   }
 }
 @media only screen and (min-width: 1170px) {
@@ -72,7 +72,7 @@
   width: 25px;
   height: 25px;
   border-radius: 50%;
-  background-color: #433f40;
+  background-color: rgba(255, 255, 255, 1);
 }
 
 @media only screen and (min-width: 1170px) {
@@ -90,7 +90,7 @@
 .timeline-content {
   position: relative;
   margin-left: 60px;
-  background: white;
+  background: rgba(255, 255, 255, 0.9);
   border-radius: 0.25em;
   padding: 1em;
   box-shadow: 0 37px 35px rgba(0,0,0, .08);
@@ -106,7 +106,7 @@
     float: left;
     padding: .8em 0;
     opacity: .7;
-    color: #433f40;
+    color: rgba(255, 255, 255, 0.79);
   }
 
   &:before {
@@ -117,7 +117,7 @@
     height: 0;
     width: 0;
     border: 7px solid transparent;
-    border-right: 7px solid white;
+    border-right: 7px solid rgba(255, 255, 255, 0.9);
   }
 }
 
@@ -135,12 +135,12 @@
     margin-left: 0;
     padding: 1.6em;
     width: 45%;
-  
+
     &:before {
       top: 24px;
       left: 100%;
       border-color: transparent;
-      border-left-color: white;
+      border-left-color: rgba(255, 255, 255, 0.9);
     }
 
     time {
@@ -150,17 +150,17 @@
       top: 9px;
     }
   }
-  
+
   .timeline-block:nth-child(even) {
     .timeline-content {
       float: right;
-      
+
       &:before {
         top: 24px;
         left: auto;
         right: 100%;
         border-color: transparent;
-        border-right-color: white;
+        border-right-color: rgba(255, 255, 255, 0.9);
       }
 
       time {
