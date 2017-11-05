@@ -100,19 +100,19 @@ img, embed, object, video, svg {
   justify-content: flex-end;
   flex: 0 0 750px;
   height: 500px;
-  background: url('../assets/images/manhattanjs-logo.png') no-repeat left center #fff;
+  background: url('../assets/images/manhattanjs-logo.png') no-repeat left center $dark-blue;
   background-size: 300px;
   color: #8d9296;
   box-shadow: 0 37px 35px rgba(0,0,0, .3);
 
   @include breakpoint(medium) {
-    background-position: top left;
-    background-size: 100%;
+    background-position: top center;
+    background-size: 80%;
     display: block;
     height: auto;
     flex: none;
     width: 100%;
-    padding-top: 167%;
+    padding-top: 140%;
   }
 }
 
@@ -127,6 +127,7 @@ img, embed, object, video, svg {
 
 .top {
   padding: 57px 50px 65px 60px;
+  background-color: $white;
 
   @include breakpoint(medium) {
     padding: 18px 18px 124px;    
