@@ -5,6 +5,10 @@
   max-width: 960px;
   margin: 0 auto;
 
+  @include breakpoint(small) {
+    width: 80%;
+  }
+
   &::after {
     content: '';
     display: table;
@@ -107,6 +111,12 @@
     padding: .8em 0;
     opacity: .7;
     color: rgba(255, 255, 255, 0.79);
+
+    @include breakpoint(small) {
+      color: $light-gray;
+      display: block;
+      float: none;
+    }
   }
 
   &:before {

@@ -33,7 +33,7 @@
     text-transform: uppercase;
     width: 350px;
   	text-shadow: 0 2px 2px rgba(0, 0, 0, .25);
-
+  	max-width: 100%;
 
     &:hover {
     	background-color: $hover-red;
@@ -42,6 +42,6 @@
   }
 
   @include breakpoint(medium) {
-  	padding: 50px;
+  	padding: 50px 18px;
   }
 }

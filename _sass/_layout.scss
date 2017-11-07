@@ -75,6 +75,11 @@ img, embed, object, video, svg {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @include breakpoint(medium) {
+    padding: 9px 9px 18px;
+    display: block;
+  }
 }
 
 .event-background {
@@ -95,19 +100,38 @@ img, embed, object, video, svg {
   justify-content: flex-end;
   flex: 0 0 750px;
   height: 500px;
-  background: url('../assets/images/manhattanjs-logo.png') no-repeat left center #fff;
+  background: url('../assets/images/manhattanjs-logo.png') no-repeat left center $dark-blue;
   background-size: 300px;
   color: #8d9296;
   box-shadow: 0 37px 35px rgba(0,0,0, .3);
+
+  @include breakpoint(medium) {
+    background-position: top center;
+    background-size: 80%;
+    display: block;
+    height: auto;
+    flex: none;
+    width: 100%;
+    padding-top: 140%;
+  }
 }
 
 .wrapper {
   min-width: 450px;
   position: relative;
+
+  @include breakpoint(medium) {
+    min-width: 0;
+  }
 }
 
 .top {
   padding: 57px 50px 65px 60px;
+  background-color: $white;
+
+  @include breakpoint(medium) {
+    padding: 18px 18px 124px;    
+  }
 }
 
 header {
@@ -129,6 +153,10 @@ header {
     text-transform: uppercase;
     text-align: center;
     margin: 0;
+
+    @include breakpoint(medium) {
+      margin: 12px 12px 0 0;
+    }
 
     b {
       line-height: 1;
@@ -175,7 +203,10 @@ ul#countdown {
     text-align: center;
     &:not(:first-of-type)  {
       margin-left: 40px;
-    }
+      @include breakpoint(medium) {
+        margin-left: 18px;
+      }
+    }  
     span {
       width: 100%;
       font-size: 26px;

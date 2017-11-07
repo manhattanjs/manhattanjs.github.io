@@ -5,6 +5,10 @@
   max-width: 700px;
   padding: 0 1em 2em;
 
+  @include breakpoint(medium) {
+    max-width: 100%;
+  }
+
   h1 {
     font-family: $header-font;
     line-height: 1.2em;
@@ -33,7 +37,7 @@
   padding-left: 0px;
   margin: 0 auto;
   margin-bottom: 1.25em;
-  width: 700px;
+  max-width: 700px;
   text-align: center;
 }
 
@@ -48,8 +52,8 @@
 
   @include breakpoint(small) {
     display: block;
-    margin: 1em 0.75em;
-    width: 300px;
+    margin: 1em auto;
+    width: 100%;
   }
 }
 
