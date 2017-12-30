@@ -45,6 +45,5 @@ function initializeClock(id, endtime) {
   var timeinterval = setInterval(updateClock, 1000);
 }
 
-/*Date & time for the next meetup */
-var deadline = 'Nov 08 2017 17:59:59 GMT-05:00';
+var deadline = 'January 10 2018 17:59:59 GMT-05:00';
 initializeClock('clockdiv', deadline);
