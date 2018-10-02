@@ -32,7 +32,7 @@ function initializeClock(id, endtime) {
     var t = getTimeRemaining(endtime);
 
     daysSpan.innerHTML = t.days;
-    hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
+    hoursSpan.innerHTML = ('0' + t.hours).slice(-2);33
     minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
     secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
 
@@ -45,5 +45,5 @@ function initializeClock(id, endtime) {
   var timeinterval = setInterval(updateClock, 1000);
 }
 
-var deadline = 'September 27 2018 17:59:59 GMT-05:00';
+var deadline = 'October 10 2018 17:59:59 GMT-05:00';
 initializeClock('clockdiv', deadline);
